@@ -16,23 +16,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href=" {{ asset('css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css">
 
 </head>
 <body>
 @if(session()->has('psuccess'))
    <script type="text/javascript">
       swal({
-          title:'Merci pour Votre Inscription',
-          text:"vous recevrez un mail de confirmation",
+          title:'Votre inscription a bien été prise en compte. Vous recevrez un mail de confirmation. Attention, cet e-mail pourrait passer dans vos spams.',
+          text:"Afin de valider votre Inscription, veuillez régler les frais par virement bancaire sur le compte de l’IRMC ou par Bon de commande.",
 
-          timer:5000
+          timer:10000
       })
   </script>
   @endif

@@ -143,7 +143,7 @@
 
                     <td>@if ($participant->confirmation === 0 )
 
-                    <a href={{ "/del/".$participant->id }}  class="btn btn-primary">Confirmation</a>
+                    <a href={{ "/update/".$participant->id }}  class="btn btn-primary">Confirmation</a>
 @else
 <img src='/img/1004739.png' style="width: 20px;">
 <br>

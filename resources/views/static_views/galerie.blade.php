@@ -95,26 +95,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li class="active"><a href="./galerie">Galerie Média   </a>
+                                <li class="active"><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -133,6 +132,9 @@
     </div>
 
     </header>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
 
 
@@ -153,7 +155,7 @@
    }
 }
 #header {
-height: 245px;   background: url(img/banniere/galerie.png) center center / cover no-repeat;
+height: 245px;   background: url(img/banniere/galerie_.png) center center / cover no-repeat;
 }
 </style>
 
@@ -166,7 +168,11 @@ height: 245px;   background: url(img/banniere/galerie.png) center center / cover
 
 
 </section>
-
+<style>
+    portfolio-1 img{
+object-fit: contain;
+    }
+</style>
 </head>
 
     <!-- Portfolio Section Begin -->
@@ -176,58 +182,57 @@ height: 245px;   background: url(img/banniere/galerie.png) center center / cover
                 <div class="col-lg-12">
                     <ul class="portfolio__filter">
                         <li class="active" data-filter="*">Tout</li>
-                        <li data-filter=".sculpture">Images</li>
-                        <li data-filter=".artnum">Vidéo</li>
-                        <li data-filter=".artnum">Article</li>
+                        <li data-filter=".img">Images</li>
+                        <li data-filter=".vid">Vidéo</li>
+                        <li data-filter=".article">Article</li>
 
                     </ul>
                 </div>
             </div>
             <div class="row portfolio__gallery">
-                <div class="col-lg-4 col-md-6 col-sm-6 mix sculpture">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                        <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-1.jpg" alt="">
 
                         </div>
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix digital-marketing">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                        <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-6.jpg" alt="">
 
                         </div>
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix sculpture">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                        <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-7.jpg" alt="">
 
                         </div>
 
                     </div>
                 </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 mix sculpture">
+                    <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                         <div class="portfolio__item">
-                            <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                            <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-9.jpg" alt="">
 
                             </div>
 
                         </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix artnum">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-5.jpg">
-                            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i
-                                    class="fa fa-play"></i></a>
+                        <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-5.jpg" alt="">
+
                         </div>
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix artnum">
+                <div class="col-lg-4 col-md-6 col-sm-6 mix img">
                     <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                        <div class="portfolio__item__video set-bg" data-setbg=""><img src="img/portfolio/portfolio-8.jpg" alt="">
 
                         </div>
 

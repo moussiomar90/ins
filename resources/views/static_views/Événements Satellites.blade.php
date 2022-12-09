@@ -68,7 +68,7 @@
                                     <ul class="dropdown">
                                         <li><a href="./ceremoniedouverture" >Cérémonie d’ouverture
                                         </a></li>
-                                        <li><a href="./Evènementsscientifiques">Evènements scientifiques</a></li>
+                                        <li><a href="./Evènementsscientifiques">Événements scientifiques</a></li>
                                         <li><a href="./Rencontres thématiques">Rencontres thématiques</a></li>
                                         <li><a href="./Événements Satellites">Événements Satellites</a></li>
 
@@ -98,26 +98,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -207,9 +206,9 @@ height: 245px;   background: url(img/banniere/@insaniyyat-.png) center center / 
 }
 
 .accordionTwo .panel-default>.panel-heading {
-    background: #224474;
+    background: white;
     border-radius: 0px;
-    border-color: #224474
+    border-color: white
 }
 
 .accordion-wrap .panel-heading {
@@ -225,7 +224,7 @@ height: 245px;   background: url(img/banniere/@insaniyyat-.png) center center / 
 }
 
 .accordionTwo .panel .panel-heading a.collapsed {
-    color: #224474;
+    color: white;
     background-color: #fff;
     display: block;
     padding: 12px 20px
@@ -245,7 +244,7 @@ height: 245px;   background: url(img/banniere/@insaniyyat-.png) center center / 
     border-top: 0;
     padding-top: 0;
     padding: 20px 20px 20px 30px;
-    background: #224474;
+    background: white;
     color: #fff;
     font-weight: 300;
     font-size: 18px;
@@ -281,7 +280,7 @@ height: 245px;   background: url(img/banniere/@insaniyyat-.png) center center / 
 
 .accordionTwo .panel .panel-heading a:after {
     content: "\2212";
-    color: #4285f4;
+    color: while;
     background: #dadada
 }
 
@@ -318,9 +317,9 @@ a:link {
 }
 
 .accordionTwo .panel-default>.panel-heading {
-    background: #224474;
+    background: while;
     border-radius: 0px;
-    border-color: #224474
+    border-color: while
 }
 
 .accordion-wrap .panel-heading {
@@ -333,6 +332,7 @@ a:link {
     margin-bottom: 0;
     font-size: 16px;
     color: inherit
+
 }
 
 .accordionTwo .panel .panel-heading a.collapsed {
@@ -747,22 +747,28 @@ Conformément au règlement général pour la protection des données (RGPD), vo
 </p> </div>
                 </div></div></div>
                     <div class="panel panel-default">
-
-                        <div class="panel-heading">
-                            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftone"  style="font-size: 24px; font-weight:600;"> | @insaniyyat : Sousse
+                    <div class="panel-heading">
+                            <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftone" aria-expanded="false" class="collapsed" style="font-size: 24px; font-weight:600; color:#224474"> | @insaniyyat : Sousse
 
 
                                 </a> </h4>
                             </div>
-                        <div id="collapseTwoLeftone" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
+
+                        <div id="collapseTwoLeftone" class="panel-collapse collapse" aria-expanded="true" role="tablist" style="height: 0px;">
                             <div class="panel-body">
 
 
 
             <!--end of /.col-sm-6--></div>
             <div class="col-sm-12 accordionTwo">
-                <div class="panel-group" id="accordionTwoRight">
+              <!-- ---------- -->
+
+
+            <div class="panel-group" id="accordionTwoRight">
                 <h2 class="soustitreprog" > | @insaniyyat : Sousse</h2>
+
+                              <!-- ---------- -->
+
 <div class="soustitreprog" ><p> L’Université de Sousse, désireuse de participer au Forum Insaniyyat Tunis 2022, qui se tient du 20 au 24 septembre 2022 dépose la demande qui suit auprès des organisateurs afin de figurer dans les événements du Forum labellisés @ INSANIYYAT. <br>
 
  Il s’agit de deux séries d’activités<br>
@@ -872,599 +878,95 @@ Les étudiantEs appartenant à plusieurs disciplines (droit, anthropologie, hist
             <div class="col-sm-12 accordionTwo">
                 <div class="panel-group" id="accordionTwoRight">
                 <h2 class="soustitreprog" > |  @insaniyyat : IAMES
-</h2>
+</h2> <p style="color: #224474">Sessions sponsored by the International Association of Middle Eastern Studies (IAMES), the International Association of Contemporary Iraqi Studies (IACIS), and the International Centre for Contemporary Middle Eastern Studies</p>
 <div class="soustitreprog" >
 
-<p> <strong>A. Sessions sponsored by the International Association of Contemporary Iraqi Studies (IACIS) in collaboration with the International Association of Middle Eastern Studies (IAMES)
+    <div class="soustitreprog" ><p>    Welcome from <strong> IAMES </strong> President Tareq Y. Ismael
 
+    On behalf of your host, La Manouba University, I would like to welcome you to the International Association of Middle Eastern Studies (IAMES) section of the Insaniyyat Forum 2022 Tunis. The purpose of the IAMES collaboration with Insaniyyat is twofold – to welcome you to this celebration of Middle Eastern studies and to join Insaniyyat Forum in solidarity following the recent decision made by the World Council for Middle Eastern Studies (WOCMES) to pull its 2022 conference. WOCMES began as an international extension of the academic mission embraced by the Middle East Studies Association of North America (MESA), which, in the words of a founding member and former IAMES President Friedemann Buettner, had been “very dependent – not the least financially – on the U.S. government which quite naturally seemed to imply its dependence on the U.S. government’s vision of Middle Eastern politics, too”.  IAMES held its conferences in collaboration with WOCMES since the latter’s foundation. While that collaboration included plans for a conference at La Manouba University, WOCMES pulled out in 2021.<strong> IAMES </strong> to go ahead with the La Manouba University conference as originally planned. <br><br>
+     <br>
+    IAMES began in the late 1960s in North America. Its founders strove to counterbalance the Western-dominated research on the Middle East by institutionalizing a forum for debates and controversies in which voices from the Middle East would take an equal share. Believing that 
+    politics will always be with us – with all scholars dealing with contemporary issues in non-Western areas, most particularly, <br>in the Middle East, the objective of IAMES was to account for social, cultural and political specificities of the region, to analyze the conditions and consequences of societal modernization, to examine the international relations between the West and the region and to discuss the dominant approaches to Middle Eastern issues from critical points of view. All this was to be achieved by shifting perspective away from traditional Western views of the region: after decades of research on the region, the aim was research in the region and with the region.<br>
+    <br></p>
+    </div>
+    <p> 
+    The founding of IAMES was a direct reflection of the political consequences of the June 1967 war. Thus, the act of founding IAMES was political in nature; but the purpose was better scientific analysis – which might then become the basis for future policy decisions: improved knowledge as a basis for “better” politics – in a way that has shaped much of IAMES’ history.  That was the academic purpose. But there was a political one, too: to counterbalance the increasing international influence of a governmentalized MESA.
+    <br>
+    <br>
+    
+    Politics continued to mark the history of IAMES conferences. After the first two which were held in the U.S. (Columbus, Ohio) and Canada (Calgary), IAMES’ first endeavor to hold a conference in the Middle East was violently halted when IAMES then-president Malcolm Kerr who, at the time, was also president of the American University of Beirut, was assassinated during the Lebanese civil war. And because the 4th IAMES could not be held at the University of Mosul in Iraq, as planned, due to the First Gulf War between Iraq and Iran whereupon it was held instead in Nicosia; the 5th IAMES planned for Tunis (1991) became the first IAMES conference held in the Arab region, overshadowed by the Second Gulf War that had just ended a month earlier. After subsequent IAMES conferences in Amman (1996) and Berlin (2000) after which its productive but fateful 20-year collaboration began with WOCMES, IAMES now returns to Tunis.  <br>
+    <br>
+    <br>
+    
+  <strong>   The International Association of Contemporary Iraqi Studies (IACIS)</strong>
+    Included in the IAMES Section of the Insaniyyat Forum 2022 Tunis are several panels sponsored by the International Association of Contemporary Iraqi Studies (IACIS). IACIS was founded in 2004 in an effort to address the absence of a coherent focus on Iraqi Studies within the scholarly literatures and popular media discussions following the 2003 invasion. From 2007, the Association has published a peer reviewed scholarly journal, the International Journal of Contemporary Iraqi Studies (IJCIS) and holds semi-annual conferences and workshops attended by an international and multi-disciplinary group of scholars. IACIS maintains a focus on bringing Iraqi scholars and global academics together to promote the international study of Iraq and its peoples. In this vein, the Association has diverted much of its resources to providing access for Iraq-based scholars so that they may attend our conferences and join members of the global academy in producing peer-reviewed leading scholarship in our journal.
+    <br>
+    <br>
+    IACIS’ participation in the IAMES Section of Insaniyyat Forum 2022 Tunis follows its most recent 5th stand-alone conference in Cairo (November 2015), following those in London (2005), Amman (2007) and Fullerton, California (2014). Until 2022, IACIS had also joined in the organization of conferences as part of the coalition of member associations which comprised WOCMES. WOCMES conferences were held in Amman (2006), Barcelona (2010), Ankara (2014) and Seville (2018). In addition, 2014 saw IACIS hold its first workshop (Beirut, 2014). 
+    <br>
+    <br>
+    In addition to its conferences and workshops, perhaps IACIS’ most important contribution is the
+    International Journal of Contemporary Iraqi Studies (IJCIS), co-founded by editors Jacqueline Ismael and Tareq Y. Ismael (University of Calgary) and led by William W. Haddad (California State University, Fullerton) until 2021. <br>Renamed Journal of Contemporary Iraq and the Arab World in 2020, the journal is published by Intellect (U.K.) and may be found online below. The Al-Wardi workshop was a resounding success and also may be found online here: <a href=" https://www.intellectbooks.com/journal-of-contemporary-iraq-the-arab-world ">https://www.intellectbooks.com/journal-of-contemporary-iraq-the-arab-world; </a> 
+    its proceedings were published as a special double issues of IJCIS, found online  <a href="https://www.ingentaconnect.com/content/intellect/ijcis/2014/00000008/f0020002;jsessionid=6ajbk0nmq3q7e.x-ic-live-02">here: https://www.ingentaconnect.com/content/intellect/ijcis/2014/00000008/f0020002;jsessionid=6ajbk0nmq3q7e.x-ic-live-02</a>.
+    <br>
+    <br>
+    The IAMES section of Insaniyyat Forum 2022 Tunis also includes sessions organized by the International Center for Contemporary Middle Eastern Studies (ICCMES). ICCMES was established in 1996 by the executive committee of IAMES to enhance scholarly communication among Middle East specialists in different parts of the world – namely Europe, North America, Middle East and Japan. After the first IAMES congress in Columbus, Ohio, in October 1974, IAMES’ active founding members and board members Malcolm H. Kerr, Hanna Batatu and Ali Mazrui called for the establishment of a Center located in the region that would bring scholars from all around the world who specialize in the Middle East. They formed the first board committee tasked with putting into action the proposal for establishing the Center as a scholarly and intellectual hub. Beirut was chosen as a possible home, with AUB as the likely host institution. Malcolm Kerr was given the green light to negotiate with AUB on behalf of IAMES in his capacity as the committee chair. When the Lebanese civil war broke in 1975, the idea of the center was delayed and with Kerr’s assassination in 1984, the idea died with him. In the mid-1990s, however, the idea was revived. Northern Cyprus had established its first university on the island, Eastern Mediterranean University (EMU). Tareq Ismael was charged with negotiating the possibility of hosting the Center at the university. After 2 years, in 1996, the Center became a reality and ICCMES held its first International Conference in 1997.
+    <br>
+    <br>
+    Since its conception, the Center has functioned not only as a hub of intercultural and interdisciplinary scholarly partnerships and networks but it also represents a physical manifestation of East-West relations. With the majority of the Center’s executive based internationally, the Center itself has been located in the region at Eastern Mediterranean University (EMU) in Northern Cyprus.<br>
+    <br> EMU was chosen as the first host institution because of its proximity to the region in addition to the university’s support of the Center and its aim. In this spirit of dialogue and interaction among scholars, the Center has organized a number of international conferences and workshops around issues of turbulence in the region that consider the economic, political and cultural centrality of the Middle East in world affairs. 
+    
+    <br>
+    <br>
+    ICCMES has also sought to disseminate the scholarly work resulting from the Center’s activities to the public at large through edited works, special journal issues and monographs (Jacqueline S. Ismael and William W. Haddad, Barriers to Reconciliation: Case Studies on Iraq and the Palestine-Israel Conflict (Lanham: University Press of America, 2006); Tareq Y. Ismael and Mustafa Aydin (eds.) Turkey’s Foreign Policy in the 21st Century (London: Ashgate Publishing Co., 2004); Tareq Y. Ismael and Jacqueline S. Ismael (eds.), Arab Studies Quarterly: Global Relations After 11 September; Myths and Realities, 25.1-2 (winter/spring 2003); Shereen T. Ismael, Globalization: Policies, Challenges and Responses (Calgary, Detseling Enterprises, 2000); Mehmet Tahiroglu, Tareq Y. Ismael and Jacqueline S. Ismael (eds.) Globalization in World Affairs: Socio-Economic and Political Dimensions (Gazimagusa: Eastern Mediterranean University Press, 1999); Clement Dodd (ed.), Cyprus: The Need for New Perspective (Huntingdon: Eothen, 1999); Tareq Y. Ismael and Jacqueline S. Ismael (eds.), Arab Studies Quarterly: Globalization and the Middle East, 21.3 (summer 1999); Tareq Y. Ismael and Andrew Rippin (eds.) Islam in the Eyes of the West: Images and Realities in an Age of Terror. (London: Routledge, 2010).
+    <br>
+    <br>ICCMES is a voluntary non-profit association. All of its activities have been self-funded and primarily financed from registration fees for conferences and workshops and in-kind contributions from host institutions and sponsoring universities. In the past, the University of Calgary, Trinity College (USA), the University of Mainz (Germany), California State University (Fullerton), Central Connecticut State University and The American University in Cairo have been sponsors.
+    Throughout the 1990s and 2000s, ICCMES has continued to develop and expand its initiatives and sponsor conferences throughout the Middle East and North America. Most recently, in 2008, the 9th ICCMES conference was held and hosted at the University of Victoria, British Columbia, Canada, titled “The Muslim World and the West: Emerging Avenues for Convergence and Cooperation”.  In December 2011, the 10th ICCMES International Conference on “The Arab Uprising: Causes & Consequences”, was held at and hosted by Eastern Mediterranean University, Northern Cyprus. In April 2019, members of ICCMES took part in the 2nd International Conference on The Cyprus Issue: “Past, Present and the Vision for the Future”, held at and hosted by Near East University, Northern Cyprus. 
+    </pre>
 
+    <br>
+    <br>
+    <strong>    IAMES Conference Steering Committee
+    </strong>
+    Tareq Ismael, Chair
+    Terri Ginsberg, Chair of the Program Committee
+    Ibrahim Aoudé, Rapporteur
+    Randi Deguilhem, Liaison to Insaniyyat Forum
+    Jens Hanssen, Communications Coordinator
+    Moncef Khaddar, Program Coordinator
+    <br>
+    <br>
+   <strong> IAMES Conference Film Program </strong>
+    Patricia Caillé
+    Terri Ginsberg
+    Haifa Zangana
+    <br>
+    <br>
+<strong>    IAMES Conference Program Graphic Design </strong>
+    Donna Ruzzano
+    
+    IAMES Conference Program Committee
+    Terri Ginsberg, Chair (Concordia University, Montréal)
+    Rabab Abdulhadi (San Francisco State University)
+    Ibrahim Aoudé (University of Hawai‘i–Mānoa)
+    Randi Deguilhem (CNRS, TELEMMe-MMSH, AMU, France)
+    Tahrir Hamdi (Arab Open University, Jordan)
+    Jens Hanssen (University of Toronto)
+    Tareq Ismael (University of Calgary)
+    Shamil Jeppie (University of Cape Town)
+    Mudar Kassis (Birzeit University)
+    Moncef Khaddar (Cyprus International University)
+    Yoshiko Kurita (Chiba University, Japan)
+    Vijay Prashad (Trinity College, Hartford, US)
+    Gamal M. Selim (British University in Egypt)
+    Nada Shabout (University of North Texas)
+    Haifa Zangana (Independent writer and activist)
+    
+    
+    
+    
 </p>
-<h2 class="sous1titreprog" > Panels:
 
-
-</h2>
-<p style="padding-top: 2%;"> <strong>Iraqi Media in Constant Transition </strong><br>
-Chair: Ahmed Al-Rawi (Simon Fraser University, Canada)<br>
-
-Ahmed Al-Rawi (Simon Fraser University, Canada) ‘Terrorist Journalism in Iraq’.<br>
-
-Leon Barkho (Jönköping University, Sweden) ‘Sectarianism and Iraqi Media’.<br>
-
-Haitham Numan (Gulf University, Bahrain) ‘Crystalizing Mass Demands Through Demonstration Signs and Context, Use and the Meaning of Protest Messages on Social Media: The Case of Iraq’.
-<br>
-Sara Mohsin Qader (Salahaddin University, Erbil, Iraq) ‘The Role of Kurdish Satellite Channels in Combating the Phenomenon of Illegal Immigration: An Analysis of NRT and K24 News Channels’.
-<br>
-
-<strong>Re-Integrating Iraq: Possibilities and Obstacles
-</strong> Saad N. Jawad (Middle East Centre, London School of Economics)<br>
-
-Sherzad A. al-Najjar (Salahaddin University, Erbil, Iraq) ‘The problem of the state-building process in Iraq’.
-<br>
-Sawsan Ismail Al-Assaf (Middle East Centre, Amman, Jordan) ‘Armed Violence in Iraq : Militarising the Society and the Principle of Restricting Possession of Weapons to the State’.
-<br>
-Raed Ahmed (Al-Iraqia University, Iraq) ‘How to Normalize Inter and Intra-Communal Relations in Iraq’
-<br>
-Ayad K. H. al-Anbr (Al-Kufa University, Iraq) ‘Hybrid Democracy: The Iraqi Example’.
-<br>
-
- <p>أهم القضايا في العراق بعد الاحتلال<br>
-(Major Issues in Iraq after Occupation) <br>
-Chair: Sawsan Ismail al-Assaf (Middle East Centre-Amman)<br>
-<br>
-Fikrat Namik (Al Alamain Institute for Postgraduate Studies, Baghdad)<br>
-" إشكالية الإشكالية بين السلطة الاتحادية وسلطة إقليم كردستان العراق وفق الدستور". (‘The Problematic Relation between the Federal Authority and the Iraqi Kurdistan Regional Authority According to the Constitution’. )
-<br><br>
-Haider Saeed (Arab Centre for Research and Policy Studies, Doha)<br>
-الطائفية في العراق: محاولة لتفسير جديد". " (‘Sectarianism in Iraq: An Attempt at a New Explanation’.)
-<br><br>
-Emad Salah Abdul Razzaq (al-Nahrain University, Baghdad)<br>
-ضعف دورات السياسة العامة وتحديات الحكم الرشيد: العراق نموذجا". 2003-2021 "(‘Impairment of Public Policy Cycles and Challenges of Good Governance: Iraq as a Model, 2003-2021)’.
-<br><br>
-Adnan Naama Abood (University of Baghdad)<br>
-"مخرجات التعليم العالي في العراق وأثره في وضع سياسات تنمية الموارد البشرية".
-(‘Higher Education Output in Iraq and Its Impact in Laying Out Human Resources Development Policies’.)
-<br><br>
-
- </p>
- <h2 class="sous1titreprog" >Roundtables:
-
-
-
-</h2>
-<p style="padding-top: 2%;">
-
- <p>لإبداع النسائي في الشتات العراقي: بين الداخل والخارج
-<br>
-(Women’s Creativity in the Iraqi Diaspora: Between the “Inside” and the “Outside”)
-Chair: Néjiba Hammami (Tunisian House of Poetry)
- <br>
-
-<br>
-May Muzaffar (Independent poet and critic)
-<br>
-"الشتات العراقي كما تمثل في الإبداع التشكيلي النسائي"<br>
-
-(‘The Iraqi Diaspora as Represented in Women’s Plastic Art Creativity’.)
-<br><br>
-Bushra al-Bustani (University of Mosul, poet, critic)
-<br>
-"ملامح النسوية في شعر المرأة العراقية ـ جمال ومضامين".
-<br>
-(‘Feminist Features in the Poetry of Iraqi Women – Aesthetics and Content’.)
-<br><br>
-Bahira Abdel Latif (Universidad Complutense Madrid, translator)<br>
-"السرد النسائي العراقي: تعدد الأساليب والرؤى في مواجهة تشظي الهوية الوطنية". <br>
-(‘The Iraqi Women’s Narrative: Multiple Methods and Visions in Facing the Fragmentation of National Identity’.)
-
-<br><br>
-
-Haifa Zangana (Independent writer and activist
-<br>
-"الوقوف على العتبة بين الوطن والمنفى".<br>
-(‘Standing on the Threshold between Home and Exile’)
-<br><br>
-
-
-
-</h2>
-
- <h2 class="sous1titreprog" > 20 Years on the War on Iraq: Solidarity and Lasting Consequences</h2>
-<p>Chair: Victoria Brittain (Journalist) <br>
-
- Mundher Al-Adhami (Scholar and activist) ‘How Did the International Anti-war Movement Affect Iraqi Internal Politics?’ <br>
-
- Sabah Al-Mukhtar (Human rights attorney and activist) ‘Solidarity Movement and a Decade of Iraqi Peoples Protests and Martyrs’. <br>
-
- Dirk Adriennson (Criminologist) ‘Environmental Destruction’. <br>
-
- Amir Amirani (Filmmaker) ‘We Are Many’.
- </p>
- <p><strong>B. Sessions sponsored by the International Center for Contemporary Middle Eastern Studies (ICCMES) in collaboration with the International Association of Middle Eastern Studies (IAMES</strong></p>
- <h2 class="sous1titreprog" > Panels</h2>
- <h2 class="sous1titreprog" > The Refugee Camps and the Displaced Persons as an International Issue in 19th- and 20th- Century History: African and Middle Eastern Case Studies</h2>
-<p>Organizer: Christian Rossi (University of Cagliari, Sardinia, Italy) <br>
-<br>
- Chair/Discussant: Elisa Giunchi (State University of Milan)<br> <br>
-
- Christian Rossi (University of Cagliari, Sardinia, Italy) ‘The International Issue of Refugee Camps in the International Organizations.’
- <br> <br>
- Nicola Melis (University of Cagliari, Sardinia, Italy) ‘Migrations and Refugee Camps during the Ottoman Empire’.
- <br> <br>
- Chiara Pagano (University of Bologna) ‘Group Displacements as “Protests By-other-means”: Contesting Unwanted Masters by Moving across and along the Tunisian-Tripolitanian Frontier (1911-1924)’.
- <br> <br>
- Anna Grichting Solder (University of Vermont) ‘The Territorial, Spatial and cultural dimensions of Refugee Camps. Historical developments and New Directions in the Middle East’.
- </p>
-</div>
- </p>
-<div class="soustitreprog">
-
- <h2 class="sous1titreprog" > The Arab Spring Ten Years On: Protests and Socio-political Activism in the MENA Region</h2>
-<p>Organizer: Nur Köprülü (Near East University, Northern Cyprus) <br><br>
-
- Chair/Discussant: C. Akça Ataç (Çankaya University, Ankara)
- <br><br>
- Nergis Canefe (York University, Canada) ‘Temporalities of Belonging and Post-Arab Spring Minority-Based Social Movements in the Middle East’.
- <br><br>
- Kenneth Christie (Royal Roads University, British Columbia) ‘Springtime for No-one: Religion, Identity and Democratic Statecraft in Post-Arab Spring UAE’.
- <br><br>
- Nur Köprülü (Near East University, Northern Cyprus) ‘In Pursuit of Democracy in MENA: Jordan amid Reforms and Protests’.
- <br><br>
- Mohammed T. Bani Salameh (Yarmouk University, Jordan) ‘Undermining the Power of Parliament and the People: Did the King become an Oppressive Tyranny with a New Constitutional Amendment’?
- <br><br>
- Assel Tutumlu (Near East University, Northern Cyprus) ‘Democracy in MENA Minus Liberalism’.
- <br><br>
- </p>
- <h2 class="sous1titreprog" > Understanding the Dynamics of Social and Political Change in Contemporary Turkey
-</h2>
-<p>Organizer: Julie Alev Dilmaç (Galatasaray University, Istanbul) <br><br>
-
- Chair: Mustafa Çıraklı (Near East University, Northern Cyprus) <br><br>
-
- Julie Alev Dilmaç  (Galatasaray University, Istanbul) ‘The Revival of the Empire: Understanding the Social Aspects of Neo-Ottomanism in Turkey’.
- <br><br>
- Mehmet Direkli (Cyprus International University, Northern Cyprus) ‘The Blue Homeland: The Doctrine of Turkey for Its Maritime Jurisdictions’.
- <br><br>
- Özker Kocadal (Cyprus International University, Northern Cyprus) ‘Conceptualizing Socioeconomic and Political Change in Turkey: Neo-Ottomanism, De-Europeanization and Middle Easternization’.
- <br><br>
- Ergün Özgür (Freie Universität Berlin / Leibniz Zentrum Moderner Orient, Berlin) ‘Resistance and Solidarity in New Turkey: The Case of Critical Academics’.
- <br><br>
-
- </p>
- <h2 class="sous1titreprog" > Understanding the Dynamics of Social and Political Change in Contemporary Turkey
-</h2>
-<p>“Homo Academicus” in the MENA/SWANA: The Role Played by Mainstream and Critical Scholars in Knowledge Production and their Involvement in “Power Relations,” Inside and Outside Academia
-Organizer: Moncef Khaddar: (Cyprus International University, Northern Cyprus)
-<br><br>
-Chair/Discussant: Emad El-Din Shahin (Hamad bin Khalifa University, Qatar Foundation)
-<br><br>
-Elizabeth Bishop (Texas State University) ‘The Nile Controversy: Method, Methodology and Critique in International Law’.
-<br><br>
-Mustafa Çıraklı (Near East University, Northern Cyprus) ‘The Securitization of Energy Cooperation in the Eastern Mediterranean’.
-<br><br>
-Moncef Khaddar (Cyprus International University, Northern Cyprus) ‘The Process of Power Reproduction and Knowledge Production under the Watch of Circulating Elites in Tunisia’.
-<br><br>
-Larbi Sadiki (Qatar University) ‘Knowledge-making: Word and World of Counter-truth/power’.<br><br>
-<strong>C. Sessions sponsored by the International Association of Middle Eastern Studies (IAMES)</strong>
-</p>
-<h2 class="sous1titreprog" >Panels: <br>
-
- Electrified Landscapes and Traveling Totems in Impossible Spaces
- </h2>
- <p>Chair: Iman Hamam (Middle East Moving Image Collective (MEMIC))<br><br>
-
- Marlies Van Coillie (The American University in Cairo) ‘An Art of Becoming: Toy-Stories in a Human-Security State’.
- <br><br>
- Ammar Abo Bakr (Visual artist @dibbanah) ‘S.O.S.’.
- <br><br>
- Iman Hamam (Middle East Moving Image Collective (MEMIC)) ‘“And You Will Be Charged by Their Light”’.<br><br>
- </p>
- <h2 class="sous1titreprog" >Art and the Environment in Iraqi Art: Part 1
-
- </h2>
- <p>Organizer: Nada Shabout (University of North Texas) <br><br>
-
- Chair: Olga Nefedova (National Research University Higher School of Economics (HSE University), Moscow)
- <br><br>
- Tiffany Floyd (Columbia University) ‘Floating on Oil and Antiquities: Al Amiloon Fil Naft and Iraqi Cultural Modernism’.
- <br><br>
- Huma Gupta (Massachusetts Institute of Technology) and Suheyla Takesh (Barjeel Art Foundation) ‘The Environmental Imagination in Mid-century Iraqi Art’.
- <br><br>
- Sarah Johnson (Dutch National Museum of World Cultures) ‘Battle ground: Environmental determinism and the politics of painting the Iraqi landscape’.
- Elizabeth Rauh (The American University in Cairo) ‘Wet Pressure Points: The Southern al-Ahwar as Fluid Site, Substance and Process in Contemporary Iraqi Printmaking’.
- </p><br><br>
- <h2 class="sous1titreprog" >Art and the Environment in Iraqi Art: Part 2
-
-
-</h2>
-<p>Organizer: Nada Shabout (University of North Texas)<br><br>
-
- Chair: Tiffany Floyd (Columbia University)<br><br>
-
- Mysa Kafil-Hussain (Archivist, Azzawi Art) ‘Painting Architectural Heritage in Modern Baghdad: The Art of Lorna Selim’.
- <br><br>
- Louisa Macmillan (Azzawi Art) ‘Where Have All the Colours Gone? Dia al-Azzawi and the Land of Darkness’.
- <br><br>
- Olga Nefedova (National Research University Higher School of Economics (HSE University), Moscow) ‘Three Monumental Murals for Baghdad: Mahmoud Sabri, Shams al-Din Faris, Ahmed al Numan Study Years in the USSR’.
- <br><br></p>
- <h2 class="sous1titreprog" >Social Policy and Social Welfare in the Middle East: Some Contemporary Themes
-
-
-
-</h2><p>Chair: John R. Graham (University of British Columbia, Okanagan)<br><br>
-
- Jacqueline S. Ismael (University of Calgary) and Shereen T. Ismael (University of British Columbia, Kelowna) ‘Iraq: A Disposable Society’.
- <br><br>
- John R. Graham (University of British Columbia, Okanagan) ‘Help-Seeking in the Arab World: A Scoping Review of the English Language Social and Health Science Literatures, 2000-2020’.
- <br><br>
- Nasser Aloud (The Imam Muhammad Bin Saud Islamic University) ‘Utilization of Formal Mental Health Services in the Arab World: Recommendations for Change’.
- <br><br>
- Aamir Jamal (University of Calgary) ‘Muslim Youth Identity Construction: A Global Study on the Complexities and Challenges of Youth Living in the Contemporary Muslim World’.
- <br><br></p>
- <h2 class="sous1titreprog" >The U.S. and the Middle East Today: Discontinuity and Disorder</h2>
-<p>Organizer: Tareq Ismael (University of Calgary)<br><br>
-
- Chair: Philip Marfleet (University of East London)<br><br>
-
- Discussant: Martin Bunton (University of Victoria, British Columbia)<br><br>
-
- Tareq Ismael (University of Calgary) ‘Regime Change and Its Aftermath’. <br><br>
-
- Edmund Ghareeb (American University) ‘The U.S. Media and Its Coverage of the 2003 Iraq Crisis’.
- <br><br>
- Stephen Zunes (University of San Francisco) ‘U.S. Support for the Moroccan Occupation of Western Sahara: Causes and Consequences’.
- <br><br>
- Janice Terry (Eastern Michigan University) ‘U.S. Foreign Policy and Lebanon’.
- <br><br>
- As’ad Abukhalil (California State University, Stanislaus) ‘Gulf States and the New Arab Order’.
-
-
- </p>
-
-</h2>
-<h2 class="sous1titreprog" >West Asia: Politics, Cultures, and Societies Under Siege
-</h2>
-<p>Chair: Ibrahim Aoudé (University of Hawai‘i–Mānoa) <br><br>
-
- Ibrahim G. Aoudé (University of Hawai‘i–Mānoa) ‘The Unfolding Regional Situation in West Asia in the Context of Global Capitalist Crisis’.
- <br><br>
- Tahrir Hamdi (Arab Open University, Jordan) ‘Exile and Siege in Palestinian Literature’.
- <br><br>
- Rami Siklawi (Arab Studies Quarterly) ‘The Dimensions of the Imperial Siege of Lebanon’.
- <br><br>
- Yousef K. Baker (California State University, Long Beach) ‘Provincializing America: Race, Neoliberalism and Sovereignty in the War on Iraq’.
- <br><br></p>
- <h2 class="sous1titreprog" >
-Palestine and Palestinians in Cinema(s) of the 1960s-1970s
-
-</h2>
-<p>Chair: Jeremy Randall (The Graduate Center, City University of New York) <br><br>
-
- Jeremy Randall (The Graduate Center, City University of New York) ‘The Landscape of Palestine in Red Army PFLP Declaration of World War’.
- <br><br>
- Tamara Maatouk (The Graduate Center, City University of New York) ‘Palestine and the Palestinians in Egyptian Films, 1967-72’.
- <br><br>
- Patrick Higgins (University of Houston) ‘Cultural Resistance in Palestinian Cinema, 1974-1982’.
- <br><br>
- Claire Begbie (Concordia University, Montréal) ‘Palestine and Montage in Qais al-Zubaidi’s Ba’idan ‘an al-Watan (1969) and Al-Ziyarah (1970)’.
- <br><br>
- </p>
- <h2 class="sous1titreprog" >
- Statehood in the Middle East: From State through Semi-State to Non-State Actors
-
-</h2>
-<p>Chair: Erzsébet N. Rózsa (National University of Public Service, Hungary)<br><br>
-
- Erzsébet N. Rózsa (National University of Public Service, Hungary) ‘Minorities and statehood in the Middle East. The experiences of the federal structure in Iraq’.
- <br><br>
- Gamal M. Selim (The British University in Egypt) ‘The Crisis of Westphalian Sovereignty in the Arab World after 2011: The Primacy of Internal Challenges’.
- <br><br>
- Laszlo Csicsmann (Corvinus University of Budapest) ‘Minorities and statehood in the Middle East: Does federalism serve as a panacea to solve the conflict in Syria’?
- <br><br>
- Moritz A. Mihatsch (British University in Egypt) ‘The Kurdish Question and the Fourteen Points’.
- <br><br>
-
- </p>
- <h2 class="sous1titreprog" >
- Language, Icons, Bodies, Desires: Tracking the Political in Arab Cinema
-
-</h2>
-<p>Chair: Chris Lippard (University of Utah)<br><br>
-
- Wissam Mouawad (Higher Colleges of Technology, UAE):
- Why Do They Speak French? On Lebanese Cinema and French Diplomacy
- <br><br>
- Chris Lippard (University of Utah) ‘The Disappearing Body in Some Rece\nt Tunisian Films’.
- <br><br>
- Viviane Saglier (University of Toronto, Scarborough) ‘The Politics of Transnational Gendered Anticolonialism: An Algerian Moudjahida in Egyptian Cinema’.
- <br><br>
- Terri Ginsberg (Concordia University, Montréal) ‘Sexuality and/in Arab Cinema: Problems in Theory’.
-
-
- </p>
- <h2 class="sous1titreprog" >
- Refugees, Migrant Workers, and Sex Tourists: Visualizing Precarious Lives
-
-</h2>
-<p>Chair: Katarzyna Marciniak (Occidental College, US)<br><br>
-
- Bruce Bennett (Lancaster University, UK) ‘Aporia, Intermediacy and the Cartoon Condition: Refugeeism and Animated Films’.
- <br><br>
- Katarzyna Marciniak (Occidental College, US) ‘“I have a scream I want the world to hear”: Acting-with Refugees in Queens of Syria’.
- <br><br>
- Aga Skrodzka (Clemson University, US) ‘The Polish Dubai-gate Scandal and the Libidinal Operations of Nation Making in Girls from Dubai’.
- <br><br> </p>
- <h2 class="sous1titreprog" >
- Unconventional Security Threats: Old/New Challenges in the MENA Region
-
-</h2>
-<p>Chair: Viktor Marsai (National University of Public Service, Hungary)<br><br>
-
- Nikolett Pénzváltó (Migration Research Institute, Budapest)
- ‘“Deniable” Wars? Assessing Risks and Opportunities through the Case of Turkey’s Intervention in Libya’.
- <br><br>
- Virág Novák-Varró (Migration Research Institute, Budapest)
- ‘Recrudescent Destabilization in Afghanistan as an Unconventional Security Threat for the Region’.
- <br><br>
- Viktor Marsai (National University of Public Service, Hungary)
- ‘Imported Havoc: Foreign Fighters and Mercenaries in the Libyan Conflict’
- <br><br>
- Zoltán Egeresi (National University of Public Service, Hungary)
- ‘From Transit to Buffer: Turkey’s Role in the Migration towards the EU’.<br><br>
- </p>
- <h2 class="sous1titreprog" >
- Création collective dans le cinéma tunisien au prisme du genre et des générations
-
-</h2>
-<p>(Collective Creation in Cinema through the Prism of Gender and Generations)
-Chair: Patricia Caillé (Université de Strasbourg/CREM EA 3476)<br><br>
-
-Azza Chaabouni (ISEAHK - Université de Jendouba) »
-« Trajectoires de jeunes professionnel.le.s du cinéma. Faire “carrière” en Tunisie »? (‘Trajectories of Young Cinema Professionals: Making a ‘Career’ in Tunisia ?)
-<br><br>
-Ons Kamoun (ESAC - Université de Carthage / IRMC) « Le métier de premier-assistant : Mounir Baaziz, pour une anthropologie du tournage de cinéma en Tunisie ».  (‘The Profession of First Assistant: Mounir Baaziz, for an Anthropology of Cinema Shooting in Tunisia’.)
-<br><br>
-Emna Mrabet (Université Paris 8) « Cadreuses et chefs opératrices en Tunisie : enjeux et mutations ».
-(‘Camera Operators and Supervisors in Tunisia: Challenges and Changes’.)
-<br><br></p>
-
-<h2 class="sous1titreprog" >
-Création collective dans le cinéma marocain au prisme du genre et des générations
-
-</h2>
-<p>(Collective Creation in Moroccan Cinema through the Prism of Genre and Generations)
-Organizer:  Patricia Caillé (Université de Strasbourg/CREM EA 3476)
-<br><br>
-Chair: Terri Ginsberg (Concordia University, Montréal)
-<br><br>
-Patricia Caillé (Université de Strasbourg/CREM EA 3476) « Vivre un tournage au quotidien : l’intensité croissante d’une expérience au long cours ». (‘Living a Daily Shoot: The Increasing Intensity of a Long-term Experience’.)
-<br><br>
-Alejandra Val Cubero (Universidad Carlos III de Madrid/TECMERIN)
-« Techniciens Marocains en Espagne, Techniciens Espagnols au Maroc ».  (‘Moroccan Technicians in Spain, Spanish Technicians in Morocco’.)
-<br><br>
-Jaouad Serghini (Université Mohammed I, Oujda, Maroc)
-« Ecce technicus ».  (‘Ecce technicus’.)<br><br>
-
-</p>
-<h2 class="sous1titreprog" >
-L’Union Européenne et les pays de la région MENA : Diversité, Différence et Avantages
-
-</h2>
-<p>
-(The EU and MENA Countries: Diversity, Difference, and Advantages)
-Organizer: Rabiâ M’Rabet Temsamani (Université Internationale d’Andalousie)<br><br>
-
-Chair: Victor Luis Gutiérrez Castillo (Université de Jaén, Espagne)<br><br>
-
-Victor Luis Gutiérrez Castillo (Université de Jaén, Espagne) « La nouvelle coopération entre l’Union européenne et la Ligue arabe vise un rapprochement : vers un partenariat euro-arabe plus solide »?
-(The New Cooperation between the European Union and the Arab League Aims for a Rapprochement: Towards a More Solid Euro-Arab Partnership’?)
-<br><br>
-Rabiâ M’Rabet Temsamani (Université Internationale d’Andalousie) « L’Union Européenne et les pays de la région MENA : Diversité, Différence et Avantages ».  (‘The EU and MENA Countries: Diversity, Difference, and Advantages’.)
-<br><br>
-Jonatán Cruz Ángeles (Université de Jaén, Espagne) « La dépendance énergétique de l'Union européenne : Défis et opportunités dans les pays du Moyen-Orient et d’Afrique du Nord ».  (‘The energy dependence of the European Union: Challenges and Opportunities in Middle Eastern and North African Countries’.)
-<br><br>
-Khadija Ismaili Alaoui (Femmes en Action, Seville) « L’Action de l’Union Européenne face aux défis sécuritaires et de défense post ‘ printemps arabe ’ : Le cas de la Libye ».  (‘The Action of the European Union in the Face of Post-Arab Spring Security and Defense Challenges: The Case of Libya’.)
-
-<br><br>
-</p>
-<p>قضايا عربية من مصر وفلسطين وشمال افريقيا</p>
-<p>(Arab issues from Egypt, Palestine and North Africa)
-Chair: Rami Siklawi (Arab Studies Quarterly)<br><br>
-
-Ferial Menaifi (Salah Boubnider University, Constantine 03, Algeria)
- "عنوان المداخلة: تأثير التغيرات البيئية على الإستقرار في منطقة شمال افريقيا".<br>
-(‘Climate Change and Stability in North Africa: Case Study of the 2021 Algeria Wildfires’.)
-<br><br>
-Souadou Lagdaf (University of Catania, Italy)
-جامعة الدول العربية في مواجهة النزاعات: القضية الفلسطينية والمسألة الصحراوية". "<br>
-(‘The Arab League in the Face of Conflicts: The Palestinian Cause and the Saharan Question’)
-<br><br>
-Seif Dana (University of Wisconsin - Parkside)
-"مَصْرَنَةْ سوريا: الموجة الثانية من حرب ١٩٦٧".<br>
-(‘The Egyptianization of Syria: The Second Wave of the 1967 War’.)
-<br><br>
-</p>
-<p>Gender, Race and the Trans/National Politics of lslamophobia
-Chair: Sunera Thobani (University of British Columbia)
-<br><br>
-Dana Olwan (Syracuse University) ‘Resignifying the Family: Islam, Gender, and the Politics of Divorce’.
-<br><br>
-Carol Fadda (Syracuse University) ‘Transnational Feminist Solidarity Networks and the Carceral State: The Case of Rasmea Odeh and Dareen Tatour’.
-<br><br>
-Sunera Thobani (University of British Columbia) ‘The Trans/National Visuality of Islamophobia: A Study of the Films of the Global War on Terror’.
-<br><br>
-
-The Law of Waqf Endowments in the Islamicate World: Theory and Praxis, Part I /
-Le droit et les fondations waqf dans le dâr al-islâm : théorie et praxis, Première partie
-<br><br>
-Chair: Randi Deguilhem (CNRS, TELEMMe-MMSH, Aix-Marseille Université, France)
-<br><br>
-Randi Deguilhem (CNRS, TELEMMe-MMSH, Aix-Marseille Université, France) ‘Juxtaposing Law and Praxis of Waqf Endowed Rented Properties: The Kadak Contract in Syria from the Ottoman period to the Asad era’. (« Juxtaposer le droit et la praxis de location des propriétés waqf : le contrat de kadak en Syrie de l’époque ottomane à l’ère Assad »)
-<br><br>
-Musa Sroor (Birzeit University, Palestine) « L’évolution de la pratique du waqf chez les juifs à Jérusalem ottoman et la jurisprudence de Tanzimat »  (‘Evolution of Waqf Practices among the Jews in Ottoman Jerusalem and Tanzimat jurisprudence’.)
-Mohammadreza Neyestani (Université d’Ispahan, Iran) « Étude de sept conditions de waqf dans le fiqh chiite » (‘A Study of Seven Conditions Concerning Waqf in Shi’i Fiqh’.)
-Salah Salem (Ecole Pratique des Hautes Etudes (EPHE), Paris) « Le droit et les waqfs mamelouks de Tunis du XVIIe au XIXe siècle » (‘The Law and Mamluk Waqf in Tunis from the 17th to the 19th Centuries’.)
-<br><br>
-
-The Law of Waqf Endowments in the Islamicate World: Theory and Praxis, Part II
-Le droit et les fondations waqf dans le dâr al-islâm : théorie et praxis, Deuxieme partie
-<br><br>
-Organizer: Randi Deguilhem (CRNS, TELEMMe-MMSH, Aix-Marseille Université, France)
-<br><br>
-Chair: Tora Miura (Ochanomizu University, Tokyo and Toyo Bunko, Tokyo, Japan)
-<br><br>
-Ouddène Boughoufala  (LEHAAN, Université Ibn Khaldoun de Tiaret, Algérie) « Le waqf en Algérie ottomane entre théorie et pratique : l’examen des disputes judiciaires autour de la propriété immobilière » (‘The waqf in Ottoman Algeria between theory and practice : examining judicial disputes concerning real-estate’.)
-<br><br>
-Sabine Saliba (CNRS, CéSOR/EHESS, Paris) « Réflexions autour des Kitâb al-waqf chez les maronites de la montagne libanaise » (‘Reflections on the Kitâb al-waqf among the Maronites in the Lebanese Mountain’.)
-<br><br>
-Toru Miura (Ochanomizu University, Tokyo and Toyo Bunko, Tokyo, Japan)  ‘Umariyya Madrasa and its Waqf Properties: Prosperity and Decline of the Largest Madrasa in Damascus’. (« La mosquée ‘Umariyya Madrasa et ses propriétés de waqf : prosperité et déclin de la plus grande madrasa à Damas »)
-<br><br>
-Vanessa R. de Obaldía (Johannes Gutenberg University of Mainz, Germany) ‘Reflections on the legal and human rights issues surrounding Alevi places of worship registered as vakıfs in contemporary Turkey’. (« Réflexions sur les questions de droits légaux et humains des lieux de culte alévi enregistrés comme vakıfs en Turquie contemporaine »)
-
-<br><br>
-Roundtables:
-<br><br>
-Preserving and Representing Heritage
-Chair/Discussant:  Nada Shabout (University of North Texas)
-<br><br>
-Hannah Lewis (Safina Projects, London) and Rashad Salim (Safina Projects, London) ‘The Ark Re-imagined’.
-<br><br>
-Hanaa Malallah (Royal University for Women (RUW), Bahrain) ‘Coexistent Ruins: Exploring Iraq’s Mesopotamian Past through Contemporary Art’.
-
-<br><br>
-Love and Resistance
-Chair: Rose Issa (Film curator, writer, publisher)
-<br><br>
-Discussant: Victoria Brittain (Journalist)
-Rim Ben Fraj (Film critic)
-<br><br>
-Mai Masri (Filmmaker)
-<br><br>
-Maryse Gargour (Film director, journalist)
-
-<br><br>
- أصوات الذاكرة: تأملات في مشروع عن دور المرأة في الذاكرة والفن
-(Voices of Memory: Reflections on a Participatory Women-led Arts and Remembrance Project)
-Chair: Christalla Yakinthou (University of Birmingham) or Virginie Ladisch (International Centre for Transitional Justice) (depending on COVID exigencies)
-<br><br>
-Discussant: Haifa Zangana (Independent writer and activist)
-<br><br>
-Hela Boujnah (Voices of Memory Collective)
-<br><br>
-Abir Guesmi (Writer)
-<br><br>
-Mounira Toumi (Voices of Memory Collective)
-<br><br>
-Salma Wahida (Artist)
-<br><br>
-
-الدول الوطنية في العالم العربي على محك الانتقال الديمقراطي
-(Democratic Transition and the Concept of Nation-state in the Arab World)
-Chair: Aymen Aboughanmi (Kairouan University, Tunisia)
-<br><br>
-Aymen Boughanmi (Kairouan University, Tunisia)
-"الانتقال الديمقراطي وإشكالية المرجعية: الثورة، المثل الديمقراطية، الواقعية السياسية".
-(‘Democratic Transition and the Problem of Reference: Revolution, Democratic Ideals, Political Realism’.)
-<br><br>
-Bechir Jouini (Independent Researcher)
-"السردية الوطنية عنصرا من عناصر إعادة بناء الدولة في ليبيا".
-(‘The National Narrative as an Element of Rebuilding the State in Libya’.)
-<br><br>
-Munir Al-Saeedani (University of Tunis, El Manar)
-"الثورة، الانتقال الديمقراطي، والدولة ما بعد الاستعمارية. ثلاث أطاريح في الحالة التونسية".
-(‘Revolution, Democratic Transition and the Post-colonial State: Three Discourses on the Tunisian Case’.)
-<br><br>
-
-Workshops:
-Governing Genealogies of Film Diplomacy and Educational Media
-Chair: Hadi Gharabaghi (Fordham University)
-<br><br>
-Discussant: Masha Salazkina (Concordia University, Montréal)
-<br><br>
-Kaveh Askari (Michigan State University) ‘Instructional Media, Global Collaboration and Campus Life: National Iranian Radio and Television Corporation at Michigan State University in the 1970s’.
-<br><br>
-Hadi Gharabaghi (Fordham University) ‘Common Denominator Film Series” (1951): Margaret Mead and the Making of a Cold War Documentary Bible’.
-<br><br>
-Bindu Menon Mannil (Azim Premji University, Bangalore) ‘Miasmic Screens: Educational Films and Biopolitics in late Colonial British India (1930-1950)’.
-<br><br>
-Bret Vukoder (University of Delaware) ‘Animating and Historicizing the USIA Motion Picture Archives Related to the Middle East’.
-
-<br><br>
-China and the Middle East
-Chair: Gamal M. Selim (British University in Egypt)
-<br><br>
-Adrian Budd (London South Bank University) ‘China, the US and World Order Change: The Middle East between the Washington Consensus and Beijing’?
-<br><br>
-Manar Shorbagy (The American University in Cairo) ‘US Reaction to China’s Assertiveness in the Middle East’.
-<br><br>
-Nader Habibi (Brandeis University) ‘China, the Middle East, and the Belt and Road Initiative’.
-<br><br>
-Najimdeen Bakare (Centre for International Peace and Stability, Islamabad) ‘China's Globalization of Infrastructural Development and Emerging Global Order: Analysis from the Middle East’.
-<br><br>
-Youcef Hamitouche (Algiers 03 University) ‘China’s Pragmatism in North Africa: The Case of China’s Presence in Algeria and Morocco’.
-<br><br>
-Zongyuan Zoe Liu (Texas A&M University) & Anas AlQaed (Gulf International Forum, Washington, D.C.) ‘China’s Economic Statecraft in the GCC and US-China Strategic Competition’.
-<br><br>
-
-
-<strong>D.  IAMES-sponsored Public Programming</strong>
-
-<br><br>
-Book exhibition:
-
-Meet the Editors: Gender and Islam – Critical Approaches to History, Society and Culture, series published by Bloomsbury / IB Tauris
-Chair: Nadia Al Bagdadi (Central European University, Vienna / Budapest)
-<br><br>
-Discussants:
-Randi Deguilhem (CNRS, TELEMMe-MMSH, Aix-Marseille Université, France)
-<br><br>
-Bettina Dennerlein (University of Zurich)
-<br><br>
-Sophie Rudland (Bloomsbury Middle East and Islamic Studies Acquisitions, UK)
-
-<br><br>
-Film program:
-<br><br>
-Fatma 75 / فاطمة 75 (Selma Baccar, Tunisia, 1976, 60 min.)
-<br><br>
-Tell Your Tale, Little Bird / احكي يا عصفورة / Raconte ton histoire, petit oiseau (Arab Loutfi, U.K., 1993/2007, 93 mins.) - director present for Q&A - La réalisatrice sera présente pour les questions-réponses - سيحضر المخرج للأسئلة والأجوبة.
-<br><br>
-3000 Nights / 3000 Nuits / 3000 ليلة (Mai Masri, Palestine/France/Jordan/Lebanon, 2015, 103 mins.) – director present for Q&A - La réalisatrice sera présente pour les questions-réponses - سيحضر المخرج للأسئلة والأجوبة.
-<br><br>
-The Land Speaks Arabic / La terre parle arabe / الارض تتكلم العربية (Maryse Gargour, Lebanon/Palestinian, 2007, 61 mins.) – director present for Q&A - La réalisatrice sera présente pour les questions-réponses - سيحضر المخرج للأسئلة والأجوبة.
-<br><br>
-We Are Many / Nous sommes nombreux / نحن كثيرون (Amir Amirani, U.K., 2014, 110 mins.) – director present for Q&A - La réalisatrice sera présente pour les questions-réponses - سيحضر المخرج للأسئلة والأجوبة.
-<br><br>
-Paroles de Damascènces / Women’s Voices from Damascus / أصوات نساء من دمشق (Randi Deguilhem, France, 2017, 52 mins.) – director present for Q&A - La réalisatrice sera présente pour les questions-réponses - سيحضر المخرج للأسئلة والأجوبة.
-
-<br><br>
-Art exhibition:
-<br><br>
-“Electrified Landscapes and Traveling Totems in Impossible Spaces: Artworks from/of the moulid, by Ammar Abo Bakr”
-<br><br>
-This art installation, organized in conjunction with the “Electrified Landscapes” panel chaired by Dr. Iman Hamam, includes visual art display and looping video projection created by artist Ammar Abo Bakr.
-<br><br>
-"مشاهد مُكهرَبة وطواطم متنقّلة في المساحات المستحيلة: أعمال فنية من الموليد، عمار أبو بكر"
-هذا التركيب الفني، الذي تم تنظيمه بالتزامن مع لوحة "المناظر الطبيعية المكهربة" برئاسة الدكتورة إيمان حمام، ويضم الفنان عمار أبو بكر، يتميز بعرض فني بصري وفيديو متكرر سيتم عرضه طوال مدة منتدى اﻧﺴﺎﻧﯿّﺎت 2022 تونس.
-<br><br>
-
-<strong> IAMES-sponsored Symposium</strong>
-
-Teaching Palestine 2022: Pedagogical Praxis and the Indivisibility of Justice
-<br><br>
-Organizer: Rabab Abdulhadi (San Francisco State University)
-<br><br>
-[projected] Participants:
-<br><br>
-Angela Davis (University of California–Santa Cruz)
-Robin D. G. Kelly (UCLA)
-Cornell West (Princeton University)
-[Others to-be-announced.]
-<br><br>
-[Note to organizers: This 3-4 session symposium, to run parallel to the conference, will address issues facing academia and scholarship in the area of Palestine and ethnic studies.  COMPLETE PROGRAM PROPOSAL TO BE SUBMITTED AT END OF FEBRUARY.]
-
-
-
-</p>
 </div>
 
 </h2>

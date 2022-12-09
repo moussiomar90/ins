@@ -37,6 +37,6 @@ class visiteurController extends Controller
         $visiteur->telephone=$request->tel;
         $visiteur->save();
         $request->session()->flash('vsuccess','informations ajouter avec succes');
-        return redirect('registration');
+        return redirect('/registration/fr');
     }
 }

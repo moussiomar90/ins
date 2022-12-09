@@ -98,26 +98,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -209,7 +208,7 @@ CriseS et Films arabes et africains.
     </div>
     <div style="height: 100px;"></div>
     </div>
-</body> -->
+</body>
 @include('Partials.footer')
 
     <!-- Js Plugins -->

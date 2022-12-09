@@ -37,7 +37,10 @@ body {
   -webkit-font-smoothing: antialiased;
 
 }
+.trix-editor{
 
+  min-height:12em;
+}
 h1,
 h2,
 h3,
@@ -116,7 +119,6 @@ a:hover {
 a:focus {
   text-decoration: none;
   outline: none;
-  color: #fff;
 }
 
 ul,
@@ -197,7 +199,6 @@ ol {
 
 .spad {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .text-white h1,
@@ -825,6 +826,16 @@ body{margin-top:20px;}
   color: #ffffff;
   font-weight: 700;
 }
+
+
+             .button-viztype {
+    border: none;
+    height:30px;
+    font-size: 10px;
+
+
+
+}
 .work__item__hover ul li {
   color: #adadad;
   list-style: none;
@@ -1336,16 +1347,15 @@ html, body, #hero, #overlay {
 -----------------------*/
 .about {
   background: #100028;
-  padding-bottom: 150px;
 }
 
 .about__pic__item {
-  height: 235px;
-  margin-right: -10px;
-  margin-bottom: 20px;
+  height: 300px;
+padding: 5%;
+
 }
 .about__pic__item.about__pic__item--large {
-  height: 490px;
+  height: 600px;;
 }
 
 .about__text {
@@ -1357,6 +1367,7 @@ html, body, #hero, #overlay {
 
 .about__text__desc {
   margin-top: -10px;
+  padding-left: 0%;
 }
 
 /*---------------------
@@ -1494,8 +1505,8 @@ html, body, #hero, #overlay {
 -----------------------*/
 .logo {
   width :100%;
-  background: #ffffff;
-  padding: 100px 20px;
+  background: ;
+  padding: 40px 20px;
 }
 .logo__item :hover {
     filter : grayscale(200%);
@@ -2210,8 +2221,7 @@ a:hover{
     background: transparent;
     color: #111111;
   }
-
-  .slicknav_nav a:hover {
+.slicknav_nav a:hover {
     border-radius: 0;
     background: transparent;
     color: #111111;
@@ -2357,4 +2367,7 @@ input[type="radio"] {
 
 .bold {
   font-weight: bold
+}
+#langlink{
+    background-color: #f5f1f1;
 }

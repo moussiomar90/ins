@@ -97,26 +97,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -155,7 +154,7 @@
    }
 }
 #header {
-height: 245px;   background: url(img/banniere/festivaledulivre.png) center center / cover no-repeat;
+height: 245px;   background: url(img/banniere/festivaldufilm.png) center center / cover no-repeat;
 }
 </style>
 
@@ -184,11 +183,11 @@ height: 245px;   background: url(img/banniere/festivaledulivre.png) center cente
 <div class="row">
     <div class="col-lg-2"></div>
     <div class="col-lg-9">
-        <div class="row">
+        <div class="row" >
         <div class="col-lg-1">  </div>
              <div class="col-lg-4">  <img src="img/logo/cnci.png" alt="cnci"></div>
-        <div class="col-lg-4">  <img src="img/logo/cinematheque.png" alt="cinematheque"></div></div>
-    <h2 class="soustitreprog" > |  Festival du Films
+        <div class="col-lg-4">  <img src="img/logo/32.png" alt="cinematheque"></div></div>
+    <h2 class="soustitreprog"style="margin-top:10%" > |  Festival du Films
 </h2>
        <div class="soustitreprog">
 

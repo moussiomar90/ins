@@ -25,106 +25,6 @@
     <link rel="stylesheet" href="css/owl.carousel.css"/>
     <script src="js/owl.carousel.min.js"></script>	<script src="js/jquery.owl-filter.js"></script>
 
-    @include('Partials.menu')
-
-
-    <style>
-
-
-@media screen and (max-width: 601px) {
-        #header{
-
-            margin-top:20%;
-   }
-}
-
-@media screen and (min-width: 601px) {
-        #header{
-
-            margin-top:5%;
-   }
-}
-#header {
-height: 245px;   background: url(img/banniere/ceremonie.png) center center / cover no-repeat;
-}
-</style>
-
-<nav class="bg-dark navbar-dark">
-  <div class="container">
-    <a href="" class="navbar-brand"><i class="fas fa-tree mr-2"></i>insaniyyat</a>
-  </div>
-  </nav>
-   <section id="header" class="jumbotron text-center">
-
-
-</section>
-
-</head>
-
-<div id="preloder">
-        <div class="loader"></div>
-    </div>
-
-
-
-
-
-<body>
-
-    <div class="container"  >
-        <div class="row col-lg-12 col-md-12 col-xs-12" >
-        <div  style="margin:5%">
-       </div>
-
-<div class="soustitreprog">
-    <p>
-La cérémonie d’ouverture donnera la parole aux organisateurs du forum qui présenteront l’architecture du programme, avec la présentation des principaux partenairs et évènements associés.
-
-  <!-- div modalite de paiement -->
-
-
-<p style=" text-align:justify;letter-spacing: 0.01em;"><strong>La conférence inaugurale intitulée “Les défis des sciences humaines et sociales au
-Maghreb et en Europe” sera donnée par :</strong></p>
-
-</div>
-
-
-
-
-<ul style="padding-left: 10%; padding-bottom:3%">
-   <li>Mme Jocelyne Dakhlia, historienne et anthropologue, directrice d’études à
-l’Ecole des hautes études en sciences sociales (EHESS, Paris)</li>
-<li>M. Hassan Rachik, anthropologue, professeur à l’université Hassan II de
-Casablanca</li></ul>
-</div></div>
-
-<!-- div modalite de paiement -->
-<!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-
-
-</div>
-<style>.bloc{
-    height: 20%;
-    color: wheat;}</style>
-<div class="bloc">
-
-
-</div>
-</body>
-
-
-
-
-    <!-- Breadcrumb End -->
 
     <header class="header header-expand-lg fixed-top" style="background-color:white;">
         <div class="container">
@@ -191,7 +91,7 @@ Casablanca</li></ul>
 
                                 <li><a  >Visite & hebergement   </a><ul class="dropdown">
 
-                                    <li><a href="./infospratique">Infos Pratique
+                                    <li><a href="./infospratique">Infos Pratiques
                                     </a></li>
                                     <li><a href="./hebergement" >Hebergement
                                     </a></li>
@@ -199,26 +99,24 @@ Casablanca</li></ul>
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias  </a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -240,6 +138,100 @@ Casablanca</li></ul>
 
 
 
+    <style>
+
+
+@media screen and (max-width: 601px) {
+        #header{
+
+            margin-top:20%;
+   }
+}
+
+@media screen and (min-width: 601px) {
+        #header{
+
+            margin-top:5%;
+   }
+}
+#header {
+height: 245px;   background: url(img/banniere/ceremonie.png) center center / cover no-repeat;
+}
+</style>
+
+<nav class="bg-dark navbar-dark">
+  <div class="container">
+    <a href="" class="navbar-brand"><i class="fas fa-tree mr-2"></i>insaniyyat</a>
+  </div>
+  </nav>
+   <section id="header" class="jumbotron text-center">
+
+
+</section>
+
+</head>
+
+<div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+
+
+
+
+<body>
+
+    <div class="container"  >
+        <div class="row col-lg-12 col-md-12 col-xs-12" >
+        <div  style="margin:5%">
+       </div>
+
+<div class="soustitreprog">
+    <p>
+La cérémonie d’ouverture donnera la parole aux organisateurs du forum qui présenteront l’architecture du programme, avec présentation des principaux partenaires et évènements associés.
+
+
+
+<p style=" text-align:justify;letter-spacing: 0.01em;"><strong>La conférence inaugurale intitulée “Les défis des sciences humaines et sociales au
+Maghreb et en Europe” sera donnée par :</strong></p>
+
+</div>
+
+
+
+
+<ul style="padding-left: 10%; padding-bottom:3%">
+   <li>Mme Jocelyne Dakhlia, historienne et anthropologue, directrice d’études à
+l’Ecole des hautes études en sciences sociales (EHESS, Paris)</li>
+<li>M. Hassan Rachik, anthropologue, professeur à l’université Hassan II de
+Casablanca</li></ul>
+</div></div>
+<!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+</div>
+<style>.bloc{
+    height: 20%;
+    color: wheat;}</style>
+
+
+
+
+
+
+    <!-- Breadcrumb End -->
+
+
+    @include('Partials.Footer')
 
 
 

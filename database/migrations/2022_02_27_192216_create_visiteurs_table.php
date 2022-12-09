@@ -17,7 +17,7 @@ class CreateVisiteursTable extends Migration
             $table->id();
             $table->string('nom');
             $table->string('prenom');
-            $table->string('email')->unique();
+            $table->string('email') ;
             $table->string('telephone');
             $table->string('qualite');
             $table->timestamps();

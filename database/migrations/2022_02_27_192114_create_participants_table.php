@@ -17,7 +17,7 @@ class CreateParticipantsTable extends Migration
             $table->id();
             $table->string('nom');
             $table->string('prenom');
-            $table->string('email')->unique();
+            $table->string('email') ;
             $table->string('universite')->nullable();
             $table->string('institution')->nullable();
             $table->string('nationalite');

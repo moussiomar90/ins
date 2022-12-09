@@ -14,7 +14,7 @@ class MailController extends Controller
             'title' => 'Mail from ADMI',
             'body' => 'This is for testion'
         ];
-        Mail::to('onetouch1198@gmail.com')->send(new TestMail($details));
+        Mail::to('contact@insaniyyat.com')->send(new TestMail($details));
         return view('register');
     }
 }

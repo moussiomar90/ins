@@ -13,6 +13,7 @@ class AdminUserSeeder extends Seeder
      */
     public function run()
     {
-        User::create(['id'=>1198,'name'=>'admin', 'email'=>'admin@admin.com', 'email_verified_at'=> now(),    'password'=> bcrypt('Insaniyyat@tun.tn')]);
+        User::create(['id'=>1198,'name'=>'admin', 'email'=>'admin2@admin.com',
+         'email_verified_at'=> now(),    'password'=> bcrypt('Insaniyyat@tun')]);
     }
 }

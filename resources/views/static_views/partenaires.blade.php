@@ -78,9 +78,9 @@ height: 245px;   background: url(img/banniere/partenaires.png) center center / c
        font-size: 2vw;
        font-weight: bold;
    color:#224474;
-   border-left: #224474 3px solid;
-   padding-left:  3%;
-   margin: 0 auto;
+
+
+   margin: 2% auto ;
    }
     }
 @media screen and (max-width: 600px) {
@@ -88,8 +88,8 @@ height: 245px;   background: url(img/banniere/partenaires.png) center center / c
         font-size: 5vw;
        font-weight: bold;
    color:#224474;
-   border-left: #224474 3px solid;
-   padding-left: 2%;
+
+
 margin-top: 10%;
 }
 }
@@ -105,32 +105,21 @@ height: 200px;
 </style>
 
 <body>
-
+<div class="container ">
 <div class="col-lg-12 col-md-12 col-xs-12"style="background-color: white;">
-<div class="row titre"><h3 >Organisateurs </h3>
+<div class="row titre"><h3 >Organisateurs <div id="carre"></div></h3>
 </div>
+
 <div class="row center " >
-<div class="col-lg-2" ></div>
-
-<div class="col-lg-1 logo "><img ></div>
-
 <div class="col-lg-2 logo "><img src="img/logo/20.png"></div>
 <div class="col-lg-2 logo "><img src="img/logo/27.png"></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/28.png"></div>
 
 
-<div class="col-lg-1 logo "><img ></div>
+<div class="col-lg-2 logo "><img src="img/logo/31.png"></div>
 
 
-<div class="col-lg-2"></div>
-
-</div>
-
-<div class="row center " >
-<div class="col-lg-2" ></div>
-<div class="col-lg-1 logo "><img ></div>
-<div class="col-lg-2 logo "><img src="img/logo/30.png"></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/18.png"></div>
 
@@ -138,19 +127,46 @@ height: 200px;
 <div class="col-lg-2 logo "><img src="img/logo/26.png"></div>
 
 
-<div class="col-lg-1 logo "><img ></div>
 
 
-<div class="col-lg-2"></div>
+</div>
+
+<div class="row center " >
+<div class="col-lg-1" ></div>
+
+
+
+<div class="col-lg-1" ></div>
+
+
+
 
 </div>
 
 
-<div class="row titre"><h3 >      Partenaires du Forum Insaniyyat </h3>
+
+<div class="row titre"><h3 >Partenaires du Forum Insaniyyat <div id="carre"></div></h3>
 </div>
 <div class="row center " >
-<div class="col-lg-2" ></div>
 
+<div class="col-lg-2 logo "><img src="img/logo/35.png"></div>
+
+<div class="col-lg-2 logo "><img src="img/logo/36.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/37.png"></div>
+
+<div class="col-lg-2 logo "><img src="img/logo/32.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/cnci.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/najjemessahra.png"></div>
+
+
+
+
+
+</div>
+<div class="row center " >
+
+<div class="col-lg-2 logo "><img src="img/logo/isamm.jpg" width="70%"></div>
+<div class="col-lg-2 logo "><img src="img/logo/esc.png" width="70%"></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/24.png"></div>
 <div class="col-lg-2 logo "><img src="img/logo/1.png"></div>
@@ -159,7 +175,6 @@ height: 200px;
 
 
 
-<div class="col-lg-2"></div>
 
 </div>
 <div class="row center " >
@@ -210,16 +225,17 @@ height: 200px;
 
 </div>
 <div class="row center " >
-<div class="col-lg-2" ></div>
+<div class="col-lg-1" ></div>
 
+<div class="col-lg-2 logo "></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/25.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/38.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/39.png"></div>
 
-<div class="col-lg-2 logo "><img src="img/logo/29.png"></div>
 
-<div class="col-lg-2 logo "><img src="img/logo/9.png"></div>
 
-<div class="col-lg-2">
+<div class="col-lg-1">
 
 </div>
 
@@ -237,14 +253,14 @@ height: 200px;
 
 </div>
 
-<div class="row center " >
+<div class="row center "style="background-color:white" >
 <div class="col-lg-2" ></div>
 
 
 </div>
 
 
-<div class="row titre"><h3 >Avec le soutien de</h3>
+<div class="row titre"><h3 >Avec le soutien de <div id="carre"></div></h3>
 </div>
 <div class="row">
 <div class="col-lg-2" ></div>
@@ -256,23 +272,22 @@ height: 200px;
 
 
 <div class="col-lg-2"></div>
-
-</div></div>
-<div class="row center " >
+</div>
+</div>
+<div class="row center " style="background-color:white">
 <div class="col-lg-2" ></div>
 <div class="col-lg-2 logo "><img src="img/logo/14.png"></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/17.png"></div>
-<div class="col-lg-2 logo "><img src="img/logo/32.png"></div>
 
 <div class="col-lg-2 logo "><img src="img/logo/23.png"></div>
 
+<div class="col-lg-3 logo "><img src="img/logo/oliss.png" ></div>
 
 
 
-<div class="col-lg-2"></div>
 
-</div>
+</div></div>
 
 <!-- 3emepartie -->
 

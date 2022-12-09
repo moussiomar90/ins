@@ -98,26 +98,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -156,7 +155,7 @@
    }
 }
 #header {
-height: 245px;   background: url(img/banniere/expo.png) center center / cover no-repeat;
+height: 245px;   background: url(img/banniere/expositionetperformance.png) center center / cover no-repeat;
 }
 </style>
 
@@ -194,7 +193,7 @@ height: 245px;   background: url(img/banniere/expo.png) center center / cover no
        <p>
 
        Les pratiques artistiques en temps de crises sont foisonnantes dans l'histoire de l'art. Crise sanitaire, crises émotionnelles, perceptives, techniques, technologiques, crises sociales, économiques, politiques… sont parfois le symptôme et parfois le résultat d'un déséquilibre en une durée de temps limitée.
-Ces pratiques sont souvent inhérentes aux contextes socio-politiques, économiques et sanitaires délicats. Elles font également échos aux avancées scientifiques, techniques et technologiques. Les crises se transforment alors en un ensemble de leviers de création artistiques qui renvoient à des problématiques, des expériences artistiques et esthétiques singulières.
+Ces pratiques sont souvent inhérentes aux contextes socio-politiques, économiques et sanitaires délicats. Elles font également écho aux avancées scientifiques, techniques et technologiques. Les crises se transforment alors en un ensemble de leviers de création artistique qui renvoient à des problématiques, des expériences artistiques et esthétiques singulières.
 C’est dans cette perspective que s’inscrivent différents évènements artistiques, dans le cadre de la première édition du forum international Insaniyyat. Deux expositions collectives ainsi qu’un ensemble de performances sont programmées :
 <br>
 
@@ -204,11 +203,11 @@ CriseS et Films arabes et africains.
        </p>
        <div class="sous1titreprog">Exposition collective d’arts numériques sous l’intitulé “...En temps de crises”.
 </div>
-<p>Les pratiques artistiques numériques se démocratisent de plus en plus en Tunisie, ainsi que les dispositifs interactifs de monstration. Sous cette perspective,  un ensemble de chercheurs et d’artistes visuel-le-s tunisien-ne-s investissent différents espaces durant le Forum. Des installations vidéo, des dispositifs de projections en temps réel et interactifs, des productions de réalité virtuelle et augmentée seront au rendez-vous.  Cette exposition a pour but de présenter des expériences artistiques numériques actuelles, en temps de crises.
+<p>Les pratiques artistiques numériques se démocratisent de plus en plus en Tunisie, ainsi que les dispositifs interactif de monstration. Sous cette perspective,  un ensemble de chercheurs et d’artistes visuel-le-s tunisien-ne-s investissent différents espaces durant le Forum. Des installations vidéo, des dispositifs de projections en temps réel et interactifs, des productions de réalité virtuelle et augmentée seront au rendez-vous.  Cette exposition a pour but de présenter des expériences artistiques numériques actuelles, en temps de crises.
 </p>
 <div class="sous1titreprog">Exposition estudiantine
 </div>
-<p>Dans les écoles d’arts de Tunis, différents médiums sont explorés dans les apprentissages. Une exposition estudiantine est une occasion importante pour valoriser les connaissances acquises et compétences développées par les apprenants. Cette exposition se veut comme une occasion de découvrir un usage inédit de ces médiums enseignés : celui des pratiques des arts visuels. Plusieurs axes sont alors établis :
+<p>Dans les écoles d’arts de Tunis, différents médiums sont explorés dans les apprentissages. Une exposition estudiantine est une occasion importante pour valoriser les connaissances acquises et compétences développées par les apprenants. Cette exposition se veut  une occasion de découvrir un usage inédit de ces médiums enseignés : celui des pratiques des arts visuels. Plusieurs axes sont alors établis :
 </p>
 <p style="padding-left:10% ;">Axe 1 : Illustrations, mattes painting & peintures numériques, ... <br>
 Axe 2 : Animation 2D /3D, vidéo, …<br>
@@ -219,7 +218,7 @@ Axe 5 : Sculpture, Installation…<br>
 
 <div class="sous1titreprog">Performances
 </div>
-<p>Au-delà des expressions plastiques, plusieurs performances (théâtre, danse, musique,etc.)  auront lieu dans différents espaces du campus de la manouba, parallèlement avec le forum.
+<p>Au-delà des expressions plastiques, plusieurs performances (théâtre, danse, musique,etc.)  auront lieu dans différents espaces du campus de la Manouba, parallèlement avec le forum.
 </p>
        </div></div>
 

@@ -52,6 +52,7 @@
 
             </style>
             <div class="row">
+
                 <div class="banner-image"></div>
                 <div class="col-sm-1 col-md-2">
                     <div class="header__logo">
@@ -63,55 +64,56 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li class="active"><a  > Le Forum
+                                <li ><a  >{{__('navbar.forum')}}</a>
                                     <ul class="dropdown">
-                                        <li><a href="./presentation" >Présentation</a></li>
-                                        <li><a href="./datesclesetlieux">Dates clés et Lieux</a></li>
-                                        <li><a href="./registration">Inscription & frais</a></li>
-                                        <li><a href="./organisateursetcomites">Organisateurs &Comités</a></li>
-                                        <li><a href="./partenaires">Partenaires</a></li>
-                                        <li><a href="./conferenciersinvites">Célébrités invitées</a></li>
-                                        <li><a href="./participants">Participants</a></li>
+                                        <li><a href="./presentation" >{{__('navbar.presentation')}}</a></li>
+                                        <li><a href="./datesclesetlieux">{{__('navbar.Dates clés et Lieux')}}</a></li>
+                                        <li><a href="./registration/{{app()->getLocale()}}"> {{__('navbar.Inscription & frais')}}</a></li>
+                                        <li><a href="./organisateursetcomites"> {{__('navbar.Organisateurs &Comités')}}</a></li>
+                                        <li><a href="./partenaires">{{__('navbar.Partenaires')}}</a></li>
+                                        <li><a href="./conferenciersinvites"> {{__('navbar.Célébrités invitées')}}</a></li>
+                                        <li><a href="./participants">{{__('navbar.Participants')}}</a></li>
 
 
                                     </ul>
                                 </a></li>
 
-                                <li  ><a   >Programme </a>
+                                <li  ><a   >{{__('navbar.Programme')}} </a>
                                     <ul class="dropdown">
-                                        <li><a href="./ceremoniedouverture" >Cérémonie d’ouverture
+                                        <li><a href="./ceremoniedouverture" >{{__('navbar.Cérémonie d’ouverture')}}
                                         </a></li>
-                                        <li><a href="./Evènementsscientifiques">Evènements scientifiques</a></li>
-                                        <li><a href="./Rencontres thématiques">Rencontres thématiques</a></li>
-                                        <li><a href="./Événements Satellites">Événements Satellites</a></li>
+                                        <li><a href="./Evènementsscientifiques"> {{__('navbar.Evènements scientifiques')}}</a></li>
+                                        <li><a href="./Rencontres thématiques"> {{__('navbar.Rencontres thématiques')}}</a></li>
+                                        <li><a href="./Événements Satellites">{{__('navbar.Événements Satellites')}}</a></li>
 
 
 
                                     </ul>
-                                <li><a  >Activités culturelles  </a><ul class="dropdown">
+                                <li><a  >{{__('navbar.Activitésculturelles')}} </a><ul class="dropdown">
 
-                                    <li><a href="./foiredulisvre" >Foire du livre
+                                    <li><a href="./foiredulisvre" > {{__('navbar.Foire du livre')}}
                                     </a></li>
-                                    <li><a href="./Festival du Films">Festival du Film
+                                    <li><a href="./Festival du Films">{{__('navbar.Festival du Film')}}
                                     </a></li>
-                                    <li><a href="/Expositions et performances">Expositions et Performances</a></li>
-                                    <li><a href="./soireemusicales">Soirées Musicales</a></li>
+                                    <li><a href="/Expositions et performances">{{__('navbar.Expositions et Performances')}}</a></li>
+                                    <li><a href="./soireemusicales">{{__('navbar.Soirées Musicales')}}</a></li>
 
 
 
                                 </ul>
 
-                                <li><a >Visite & hebergement   </a><ul class="dropdown">
+                                <li><a >{{__('navbar.Visite et hébergement')}} </a><ul class="dropdown">
 
-                                    <li><a href="./infospratique">Infos Pratique
+                                    <li><a href="./infospratique">{{__('navbar.Infos Pratique')}}
                                     </a></li>
-                                    <li><a href="./hebergement" >Hebergement
+                                    <li><a href="./hebergement" >{{__('navbar.Hebergement')}}
                                     </a></li>
-                                    <li><a href="./decouvrir">Découvrir</a></li>
+                                    <li><a href="./decouvrir">{{__('navbar.Découvrir')}}</a></li>
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">{{__('navbar.Presse et médias')}}
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
@@ -122,16 +124,18 @@
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
+padding: auto;
 
-    border-left-color:#224474;
-    border-left-width: 4px;
+}</style> @if(app()->getLocale()== 'fr')
+                                    <a href="/en" id="langlink">ANG </a>
+@else
+<a href="/fr" id="langlink">FRA </a>
 
-}</style>
-                                <button class="button-viztype ">
-      Fr
-    </button>
+                                    @endif
+
+
 
 
                         </nav>
@@ -182,7 +186,7 @@
 
                                 <div style="margin-top:12px"></div>
                                     <div class="d-flex">
-                                    <button class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;border:0px; margin-right:1% "  ><a style="color:white" href="./registration" > Inscription </a><span class="arrow_carrot-right"></button>
+                                    <button class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;border:0px; margin-right:1% "  ><a style="color:white" href="/registration/{{app()->getLocale()}}" >{{__('index.Inscription')}} </a><span class="arrow_carrot-right"></button>
                                     <button class="styled3" type="button3" style="background-color:transparent; margin-top: 10px;     border:2px solid #224474;
 "><a style="color:#224474" href="#" >Programme </a> <span class="arrow_carrot-right"></span></button>
 
@@ -191,7 +195,7 @@
 
                                   <div class="col-lg-6 text-lg-right  mt-5 mt-lg-0">
 
-                                    <div class="banner"> <img src="img/hero/motif3.png"> </div>
+                                    <div class="banner"> <img src="img/hero/insaniyyat-heroimage.png" alt="insaniyyat_"> </div>
                                  </div>
                                 </div>
                         </div>
@@ -226,7 +230,7 @@
 
                             </div>
                         </div>
-                        <div class="col-sm-9 col-lg-6 col-md-6 service-text " style="padding: auto;">
+                        <div class="col-sm-9 col-lg-6 col-md-6 service-text " style="padding: auto; padding-bottom:10s%">
                           <style>
                               @media screen and (min-width: 601px) {
   div.title {
@@ -261,9 +265,8 @@
                             line-height: 26px;
 
                            text-align: justify;">
-                                Insaniyyat est un Forum international des sciences humaines et
-                                sociales visant à offrir aux chercheur.e.s, de provenance et d’horizons variés et de toutes générations, un espace de débat scientifique entre pairs et d’échange avec la société sur la recherche en train de se faire. Ancré dans le contexte que connaissent la Tunisie, le Maghreb et l’ensemble de la région (Moyen-Orient, Afrique, Europe), et en prise avec les défis urgents à relever ensemble, cette rencontre d’envergure contribuera à revaloriser le statut des sciences humaines et sociales dans l’enseignement et la recherche, à expliquer l’importance de celles-ci dans l’administration des affaires de la Cité...
-                                <a href="/Rencontres%20thématiques" style="color:#224474 ;" > <b>LIRE PLUS<span class="arrow_carrot-down"></span></a>
+                               {{__('index.presentation')}}...
+                                <a href="/presentation" style="color:#224474 ;" > <b>  {{__('index.LIRE PLUS')}}<span class="arrow_carrot-down"></span></a>
 
                             </div>
                     </div>
@@ -296,7 +299,7 @@
 
                           </svg>     <div class="carttitle" style=" margin: bottom 1000px;;">400  <p style="color: #224474; font-size: 9px;line-height: normal; width: 70%;  margin: 0 0 0px 0;
 
-font-weight: 600; ">Propositions</p></div>  </div>
+font-weight: 600; ">{{__('index.Propositions')}}</p></div>  </div>
 
 
 
@@ -307,8 +310,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                             <img  src="img/chiffrecle/1.svg"  margin >
 
 
-                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;" >35<p style="color: #224474; font-size: 9px;line-height: normal; width: 70%; margin: 0 0 0px 0;font-weight: 600;">Pays Différents,
-                            Dont 39% De Tunisie</p></div>  </div>
+                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;" >35<p style="color: #224474; font-size: 9px;line-height: normal; width: 70%; margin: 0 0 0px 0;font-weight: 600;">{{__('index.Pays Différents,Dont 39% De Tunisie')}}</p></div>  </div>
 
 
                           <div class="col-lg-2 col-md-2 col-sm-1" >
@@ -316,17 +318,15 @@ font-weight: 600; ">Propositions</p></div>  </div>
                             <img  src="img/chiffrecle/1.svg"  margin >
 
 
-                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;;">30<p style="color: #224474;font-size: 9px;letter-spacing: normal; line-height: normal; width: 70%;font-weight: 600;">Disciplines
-                            Des Sciences Humaines
-                            Et Sociales </p></div>  </div>
+                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;;">30<p style="color: #224474;font-size: 9px;letter-spacing: normal; line-height: normal; width: 70%;font-weight: 600;">{{__('index.Disciplines Des Sciences Humaines Et Sociales')}} </p></div>  </div>
 
                           <div class="col-lg-2 col-md-2 col-sm-1" >
                             <div class="cart"></div>
                             <img  src="img/chiffrecle/1.svg"  margin >
 
 
-                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;;">1500 <p style="color: #224474; font-size: 9px; line-height: normal; width: 70%;font-weight: 600;">Personnes À Tunis En Septembre
-                            2022</p></div>  </div>
+                          </svg>     <div class="carttitle" style=" margin: bottom 1000px;;">1500 <p style="color: #224474; font-size: 9px; line-height: normal; width: 70%;font-weight: 600;">{{__('index.Personnes À Tunis En Septembre
+                            2022')}}</p></div>  </div>
 
 
                         </div>
@@ -396,10 +396,10 @@ font-weight: 600; ">Propositions</p></div>  </div>
                     <div class="services__item">
 
 
-                        <p>La première ambition du Forum Insaniyyat est  d’offrir un espace d’échange et de rencontre scientifique proposant un état des lieux de la recherche en sciences humaines et sociales dans la région, pour présenter la part la plus dynamique et innovante de ces travaux en invitant en particulier les jeunes chercheurs, et réfléchir aux  conséquences des crises récentes, notamment sur les pratiques scientifiques et sur les conditions d’exercice de l’enseignement et de la recherche. </p>
+                        <p>{{__('index.ambition')}}. </p>
 
 
-                        <button class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;"> Programme <span class="arrow_carrot-right"></button>
+                        <button  type="button"  onclick="window.location.href = '/Evènementsscientifiques';"  class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;"  class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;" > Programme <span class="arrow_carrot-right"></button>
                     </div>
 
 
@@ -410,33 +410,30 @@ font-weight: 600; ">Propositions</p></div>  </div>
                         <div class="col-lg-4 col-md-3 col-sm-9">
                             <div class="services__item" style="padding: 0%; margin:auto;">
                                 <!-- <p class="services__item" style="padding: 0%; margin-bottom:-20px; border: left 1px white ;" >Lundi 24,sept. 2022 à 14h</p> -->
-                                <h4>Un congrès scientifique des sciences humaines et
-                                    sociales sur l’Afrique, le Maghreb et Moyen-Orient :</h4>
+                                <h4>{{__('index.titre1')}}</h4>
                                 <p
-                                margin-right: auto;">le Forum est ouvert à toute recherche sur ces régions, en accueillant en particulier la majorité des ateliers programmés pour le congrès bisannuel du Groupement d’intérêt scientifique (GIS) Moyen-Orient Mondes Musulmans (CNRS France) de 2021.</p>
+                                margin-right: auto;">{{__('index.soustitre1')}}</p>
                                 <p style="text-transform: uppercase;font-weight: bold;
-                                ">Lire plus <span class="arrow_carrot-down"></span></p>
+                                " > <a href="/Evènementsscientifiques" style="color:white"> {{__('index.LIRE PLUS')}}</a> <span class="arrow_carrot-down"></span></p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-3 col-sm-9">
                             <div class="services__item" style="padding: 0%; margin:auto;">
-                                <h4>Un symposium interdisciplinaire de l’université dela Manouba « Regards croisés autour des CrisEs » :</h4>
+                                <h4>{{__('index.titre2')}}</h4>
                                 <p
-                                margin-right: auto;">au sortir d’une crise sanitaire d’une grande ampleur, ellemême source et conséquence de plusieurs autres crises, ce
-                                symposium interrogera les recherches sur la notion même de crise et les mutations qui en sont le produit.
+                                margin-right: auto;">{{__('index.soustitre2')}}
                                 </p>
                                 <p style="text-transform: uppercase;font-weight: bold;
-                                ">Lire plus <span class="arrow_carrot-down"></span></p>
+                                " > <a href="/Evènementsscientifiques" style="color:white">   {{__('index.LIRE PLUS')}}</a> <span class="arrow_carrot-down"></span></p>
                             </div>
                         </div>
   <div class="col-lg-4 col-md-3 col-sm-9">
     <div class="services__item" style="padding: 0%; margin:auto;">
-        <h4>Des évènements scientifiques associés « @Insaniyyat »</h4>
+        <h4>{{__('index.titre3')}}</h4>
         <p
-        margin-right: auto;">qui accueillent le congrès d’associations partenaires, comme celui de l’International Association for Middle East Studies (IAMES). Particulièrement ancrée au Moyen-Orient, IAMES organise une conférence tous les quatre ans et s’associera cette année à Insaniyyat.</p>
+        margin-right: auto;">{{__('index.soustitre3')}}</p>
         <p style="text-transform: uppercase;font-weight: bold;
-        ">Lire plus <span class="arrow_carrot-down"></span></p>
-    </div>
+                                " > <a href="/Evènementsscientifiques" style="color:white">   {{__('index.LIRE PLUS')}}</a> <span class="arrow_carrot-down"></span></p>
                         </div>
 
                     </div> </div>
@@ -497,17 +494,17 @@ font-weight: 600; ">Propositions</p></div>  </div>
             color: #224474;
             font-weight:700;
                                     letter-spacing: .1rem;
-                                    text-transform : uppercase; text-align:justify"> Rencontres
-            thématiques
+                                    text-transform : uppercase; text-align:justify">   {{__('index.Rencontres')}}
+
              </h2>
         <div id="carre"></div>
 
-        <p style="color: #224474;text-align:justify">Soucieux d’élargir son audience au-delà du cercle académique, le Forum organisera en parallèle de ces activités scientifiques trois rencontres thématiques à l’audience large.
+        <p style="color: #224474;text-align:justify">{{__('index.descriptionrencontre')}}
            </p>
 
 
-            <button class="styled3" type="button3" style="background-color:white; margin-top: 10px;     border:2px ridge #224474;
-"> voir le contenu <span class="arrow_carrot-right"></button>
+            <button   class="styled3" type="button3" style="color: aliceblue; margin-top: 10px;" style="background-color:white; margin-top: 10px;     border:2px ridge #224474;
+" onclick="window.location.href = '/Evènementsscientifiques';" >{{__('index.voir le contenu')}}  <span class="arrow_carrot-right"></button>
 
 </div>
 
@@ -529,11 +526,11 @@ font-weight: 600; ">Propositions</p></div>  </div>
                                 <div class="services__item__icon">
                                     <img src="img/icons/1.png" alt="">
                                 </div>
-                                <h4>1- Humanités numériques
+                                <h4>{{__('index.rencontre1')}}
 </h4>
                                 <p>
-                                La digitalisation des ressources documentaires, la multiplication des bases de données, le traitement numérique des corpus ont profondément changé le paysage des sciences humaines et sociales.
-<br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >Lire plus <span class="arrow_carrot-down"></span></a>
+                                {{__('index.sousren1')}}
+<br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >  {{__('index.LIRE PLUS')}} <span class="arrow_carrot-down"></span></a>
                                 </p>                   </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6" style=" padding-left:1px">
@@ -541,12 +538,11 @@ font-weight: 600; ">Propositions</p></div>  </div>
                                 <div class="services__item__icon">
                                     <img src="img/icons/2.png" alt="">
                                 </div>
-                                <h4>2- Traduction et circulations des savoirs
+                                <h4>{{__('index.rencontre2')}}
 </h4>
                                 <p>
 
-                               La circulation plurilingue des savoirs, en apparence facilitée par les transformations numériques du marché du livre, rencontre encore des obstacles dans des contextes...
-                               <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >Lire plus <span class="arrow_carrot-down"></span></a>
+                                {{__('index.sousren2')}}                               <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >  {{__('index.LIRE PLUS')}} <span class="arrow_carrot-down"></span></a>
                             </p></div>
                         </div>
 
@@ -558,13 +554,13 @@ font-weight: 600; ">Propositions</p></div>  </div>
                                     <img src="img/icons/3.png" alt="">
                                 </div>
 
-                                <h4>3- Rencontres Sciences sociales et Société
+                                <h4>{{__('index.rencontre3')}}
 </h4>
                                 <p style="margin-bottom: 0px;">
-                                Le contexte tunisien est particulièrement propice pour réfléchir aux relations entre universités et champ politique , dans le cadre de l’ouverture permise par les situations révolutionnaires de 2011...
+                                {{__('index.sousren3')}}
 
 
-                                <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >Lire plus <span class="arrow_carrot-down"></span></a>
+                                <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >  {{__('index.LIRE PLUS')}} <span class="arrow_carrot-down"></span></a>
 
                             </p>
                             </div>
@@ -577,12 +573,12 @@ font-weight: 600; ">Propositions</p></div>  </div>
                                 <div class="services__item__icon">
                                     <img src="img/icons/4.png" alt="">
                                 </div>
-                                <h4>4- Arts, culture, cinéma
+                                <h4>{{__('index.rencontre4')}}
 
 </h4>
                                 <p>
-                                Adossée au programme culturel et notamment au festival du film, cette rencontre propose une réflexion sur les enjeux artistiques et culturels au Maghreb Moyen-Orient. Des ateliers thématiques abordent les dimensions esthétiques
-                                <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >Lire plus <span class="arrow_carrot-down"></span></a>
+                                {{__('index.sousren4')}}
+                                <br><a href="/Rencontres%20thématiques" style="color:#F9F9F9" >  {{__('index.LIRE PLUS')}} <span class="arrow_carrot-down"></span></a>
   </p>
                             </div>
                         </div>
@@ -621,9 +617,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                color: #224474;
                font-weight:700;
                                        letter-spacing: .1rem;
-                                       text-transform : uppercase;">Evènements
-                artistiques et
-                culturels
+                                       text-transform : uppercase;">               {{__('index.titreeve')}}
                 </h2>
                 <div style="  margin-right:80%;
                 margin-top:85%;
@@ -641,7 +635,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                         <ul>
 
                             <li>20 Septembre 2022</li>
-                            <h4>Une Soirée malouf "Ennejma Ezzahra"
+                            <h4>{{__('index.malouf')}}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12.597" height="12.593" viewBox="0 0 12.597 12.593">
                                 <g id="Groupe_74" data-name="Groupe 74" transform="translate(-230.104 -316.945)">
                                   <path id="Tracé_94" data-name="Tracé 94" d="M236.4,329.575q-2.013,0-4.026,0a2.127,2.127,0,0,1-2.264-2.26q0-4.026,0-8.052a2.126,2.126,0,0,1,2.252-2.272c1.292,0,2.585,0,3.877,0a.744.744,0,0,1,.8.469.7.7,0,0,1-.735.932c-.957.011-1.913,0-2.87,0-.4,0-.8,0-1.193,0a.653.653,0,0,0-.729.706q-.007,4.175,0,8.35a.652.652,0,0,0,.715.719q4.175.006,8.35,0a.652.652,0,0,0,.71-.725c.005-1.342,0-2.684,0-4.026,0-.608.429-.957.929-.777a.678.678,0,0,1,.468.689c.006,1.4.032,2.809-.008,4.212a2.08,2.08,0,0,1-2.146,2.031C239.154,329.582,237.775,329.574,236.4,329.575Z" transform="translate(0 -0.039)" fill="#fff"/>
@@ -650,8 +644,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                               </svg>
 
                                 </h4>
-                            <li>Une Soirée À L’opéra De Tunis
-                                Une Soirée À L’opéra De Tunis
+                            <li>
 
                                 </li>
                         </ul>
@@ -666,7 +659,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                         <ul>
 
                             <li>20 Septembre 2022</li>
-                            <h4>Une foire aux livres  <svg xmlns="http://www.w3.org/2000/svg" width="12.597" height="12.593" viewBox="0 0 12.597 12.593">
+                            <h4>{{__('index.feslivre')}}<svg xmlns="http://www.w3.org/2000/svg" width="12.597" height="12.593" viewBox="0 0 12.597 12.593">
                                 <g id="Groupe_74" data-name="Groupe 74" transform="translate(-230.104 -316.945)">
                                   <path id="Tracé_94" data-name="Tracé 94" d="M236.4,329.575q-2.013,0-4.026,0a2.127,2.127,0,0,1-2.264-2.26q0-4.026,0-8.052a2.126,2.126,0,0,1,2.252-2.272c1.292,0,2.585,0,3.877,0a.744.744,0,0,1,.8.469.7.7,0,0,1-.735.932c-.957.011-1.913,0-2.87,0-.4,0-.8,0-1.193,0a.653.653,0,0,0-.729.706q-.007,4.175,0,8.35a.652.652,0,0,0,.715.719q4.175.006,8.35,0a.652.652,0,0,0,.71-.725c.005-1.342,0-2.684,0-4.026,0-.608.429-.957.929-.777a.678.678,0,0,1,.468.689c.006,1.4.032,2.809-.008,4.212a2.08,2.08,0,0,1-2.146,2.031C239.154,329.582,237.775,329.574,236.4,329.575Z" transform="translate(0 -0.039)" fill="#fff"/>
                                   <path id="Tracé_95" data-name="Tracé 95" d="M310.253,318.352c-.4,0-.708.009-1.016,0a.689.689,0,0,1-.752-.7.678.678,0,0,1,.745-.7q1.323-.015,2.646,0a.721.721,0,0,1,.779.8q.012,1.3,0,2.609a.684.684,0,0,1-.683.763.694.694,0,0,1-.715-.772c-.008-.3,0-.61,0-.915l-.1-.055c-.514.53-1.024,1.066-1.545,1.59-.893.9-1.794,1.79-2.69,2.686-.218.218-.484.37-.765.215-.195-.107-.431-.331-.448-.519a1.023,1.023,0,0,1,.281-.709c1.31-1.342,2.645-2.66,3.972-3.986C310.041,318.581,310.114,318.5,310.253,318.352Z" transform="translate(-69.967 0)" fill="#fff"/>
@@ -674,8 +667,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                               </svg>
 
                                 </h4>
-                            <li>Une Soirée À L’opéra De Tunis
-                                Une Soirée À L’opéra De Tunis
+                            <li>
 
                                 </li>
                         </ul>
@@ -684,7 +676,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                 <div class="work__item wide__item set-bg"class="desc"  >
 
                     <div >
-                     <p style="color: #224474; text-align:justify; padding-right:3%">Grâce à ses partenariats, le forum Insaniyyat proposera un ensemble d’évènements culturels dont une soirée de Malouf à Ennejjema Ezzahra, une exposition de l’association Be Tounsi (produits du terroir et de l’artisanat), un festival du film organisé par le Centre national du cinéma et de l’image et une Foire du livre.</p>
+                     <p style="color: #224474; text-align:justify; padding-right:3%">  {{__('index.souseve')}}</p>
                      <button class="styled3" type="button3" style="background-color:white; margin-top: 10px;     border:2px ridge #224474;
 "> voir le contenu <span class="arrow_carrot-right"></button>
                     </div>
@@ -708,7 +700,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                         <ul>
 
                             <li>20 Septembre 2022</li>
-                            <h4>Une Soirée À L’opéra De Tunis <svg xmlns="http://www.w3.org/2000/svg" width="12.597" height="12.593" viewBox="0 0 12.597 12.593">
+                            <h4> <a href="/"> {{__('index.expo')}}<svg xmlns="http://www.w3.org/2000/svg" width="12.597" height="12.593" viewBox="0 0 12.597 12.593">
                                 <g id="Groupe_74" data-name="Groupe 74" transform="translate(-230.104 -316.945)">
                                   <path id="Tracé_94" data-name="Tracé 94" d="M236.4,329.575q-2.013,0-4.026,0a2.127,2.127,0,0,1-2.264-2.26q0-4.026,0-8.052a2.126,2.126,0,0,1,2.252-2.272c1.292,0,2.585,0,3.877,0a.744.744,0,0,1,.8.469.7.7,0,0,1-.735.932c-.957.011-1.913,0-2.87,0-.4,0-.8,0-1.193,0a.653.653,0,0,0-.729.706q-.007,4.175,0,8.35a.652.652,0,0,0,.715.719q4.175.006,8.35,0a.652.652,0,0,0,.71-.725c.005-1.342,0-2.684,0-4.026,0-.608.429-.957.929-.777a.678.678,0,0,1,.468.689c.006,1.4.032,2.809-.008,4.212a2.08,2.08,0,0,1-2.146,2.031C239.154,329.582,237.775,329.574,236.4,329.575Z" transform="translate(0 -0.039)" fill="#fff"/>
                                   <path id="Tracé_95" data-name="Tracé 95" d="M310.253,318.352c-.4,0-.708.009-1.016,0a.689.689,0,0,1-.752-.7.678.678,0,0,1,.745-.7q1.323-.015,2.646,0a.721.721,0,0,1,.779.8q.012,1.3,0,2.609a.684.684,0,0,1-.683.763.694.694,0,0,1-.715-.772c-.008-.3,0-.61,0-.915l-.1-.055c-.514.53-1.024,1.066-1.545,1.59-.893.9-1.794,1.79-2.69,2.686-.218.218-.484.37-.765.215-.195-.107-.431-.331-.448-.519a1.023,1.023,0,0,1,.281-.709c1.31-1.342,2.645-2.66,3.972-3.986C310.041,318.581,310.114,318.5,310.253,318.352Z" transform="translate(-69.967 0)" fill="#fff"/>
@@ -716,10 +708,7 @@ font-weight: 600; ">Propositions</p></div>  </div>
                               </svg>
 
                                 </h4>
-                            <li>Une Soirée À L’opéra De Tunis
-                                Une Soirée À L’opéra De Tunis
 
-                                </li>
                         </ul>
                     </div>
                 </div>
@@ -736,20 +725,31 @@ font-weight: 600; ">Propositions</p></div>  </div>
  <!-- Logo Begin -->
  <div class="logo spad">
     <div class="container ">
-        <h3 style="color:#BFBFBF;text-transform: uppercase; font-size:30px">organisé par</h3>
+        <h3 style="color:#BFBFBF;text-transform: uppercase; font-size:30px">{{__('index.organisepar')}}</h3>
         <!-- <h1 style="color:#dddddd; font-size: 30pt;letter-spacing: -3px;">organisé par</h1> -->
-<br>        <div class="logo__carousel owl-carousel ">
+<br>        <div class="row " >
 
-            <a href="#" class="logo__item"><img src="img/logo/18.png" alt="irmc"></a>
-            <a href="#" class="logo__item"><img src="img/logo/26.png" alt="semom"></a>
-            <a href="#" class="logo__item"><img src="img/logo/27.png" alt="utm"></a>
-            <a href="#" class="logo__item"><img src="img/logo/28.png" alt="udt"></a>
-            <a href="#" class="logo__item"><img src="img/logo/20.png" alt="uma"></a>
-        <a href="#" class="logo__item"><img src="img/logo/25.png" alt="aimes"></a>
+<div class="col-lg-2 logo "><img src="img/logo/20.png"></div>
+<div class="col-lg-2 logo "><img src="img/logo/27.png"></div>
 
-        </div>
+<div class="col-lg-2 logo "><img src="img/logo/28.png"></div>
+
+
+<div class="col-lg-2 logo "><img src="img/logo/31.png"></div>
+
+
+
+<div class="col-lg-2 logo "><img src="img/logo/18.png"></div>
+
+
+<div class="col-lg-2 logo "><img src="img/logo/26.png"></div>
+
+
+
+
+</div>
         <br>
-        <h3 style="color:#BFBFBF; text-transform: uppercase;">Partenaires </h3>   <br>
+        <h3 style="color:#BFBFBF; text-transform: uppercase;">{{__('index.partenaire')}} </h3>   <br>
         <div class="logo__carousel owl-carousel ">
         <a href="#" class="logo__item"><img src="img/logo/32.png"alt="amavi"></a>
 

@@ -98,28 +98,26 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
-
 
                         </nav>
                     </div>
@@ -156,7 +154,7 @@
    }
 }
 #header {
-height: 245px;   background: url(img/banniere/decouvrir.png) center center / cover no-repeat;
+height: 245px;   background: url(img/banniere/b_decouvrir.png) center center / cover no-repeat;
 }
 </style>
 
@@ -212,6 +210,13 @@ transition: 1s ease;
 }
 
     .decouvrir p {width: 80%; color:#224474; text-align:justify;}
+
+    .col-lg-6{
+padding-left:0%;
+padding-right:0%;
+
+    }
+    .jumbotron{margin-bottom:0%}
 </style>
 </main >
 <div class="row decouvrir" >
@@ -242,7 +247,7 @@ transition: 1s ease;
 
 
 <div class="col-lg-5" style="margin-top:5%">
-    <div class="titreprog"> Carthage</div>
+    <div class="titreprog">Site archéologique  <br>de carthage</div>
 <div id="carre" ></div>
 <p >Carthage est une commune du gouvernorat de Tunis, en Tunisie. Il porte le nom et comprend dans sa zone le site archéologique de Carthage. Fondée en 1919, Carthage est à environ 15 km à l'est-nord-est de Tunis, située entre les villes de Sidi Bou Saïd au nord et Le Kram au sud.</div>
 
@@ -280,8 +285,7 @@ transition: 1s ease;
 
 
 
-<div style="height: 200px;"></div>
-</div>
+
         </body>
 @include('Partials.footer')
 

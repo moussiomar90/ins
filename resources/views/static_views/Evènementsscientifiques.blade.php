@@ -98,26 +98,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -299,13 +298,12 @@ a:link {
     <section class="accordion_two_section ptb-100">
     <div class="container">
         <div class="row"> <div class="col-sm-4 accordionTwo">
-          <h2 class="titreprog" >Evènements scientifiques</h2>
+          <h2 class="titreprog" >Événements scientifiques</h2>
             <!--end of /.col-sm-6--></div>
             <div class="col-sm-8 accordionTwo">
                 <div class="panel-group" id="accordionTwoRight">
-                <h2 class="soustitreprog" > Congrès des sciences humaines et sociales sur l’Afrique, le
-Maghreb et le Moyen-Orient</h2>
-<div class="soustitreprog" ><p> Le Forum est ouvert à toute recherche sur ces régions, en accueillant en particulier la majorité des ateliers programmés pour le congrès bisannuel du Groupement d’intérêt scientifique (GIS) Moyen-Orient Mondes Musulmans (CNRS France) de 2021. La gamme couverte par ces recherches est large : doctorants, post-doctorants, chercheurs et enseignants chercheurs parleront aussi bien du lexique de la révolution en Syrie que de la poésie mystique persane de l’époque classique, des mouvements sociaux (ḥirāk) comme de l’herméneutique coranique dans l’Andalousie médiévale.
+                <h2 class="soustitreprog" >Congrès Insaniyyat</h2>
+<div class="soustitreprog" ><p> Le Forum est ouvert à toute recherche sur les régions Afrique, Maghreb et Moyen-Orient ces régions, en accueillant en particulier la majorité des ateliers programmés pour le congrès bisannuel du Groupement d’intérêt scientifique (GIS) Moyen-Orient Mondes Musulmans (CNRS France) de 2021. La gamme couverte par ces recherches est large : doctorants, post-doctorants, chercheurs et enseignants chercheurs parleront aussi bien du lexique de la révolution en Syrie que de la poésie mystique persane de l’époque classique, des mouvements sociaux (ḥirāk) comme de l’herméneutique coranique dans l’Andalousie médiévale.
 
 </p>
 <h2 class="soustitreprog" >Symposium “Regards croisés autour des CriseS”
@@ -316,9 +314,9 @@ Maghreb et le Moyen-Orient</h2>
 
 </p>
 
-<h2 class="soustitreprog" > Regards croisés sur les sciences humaines et sociales au Maghreb et ailleurs : bilans et perspectives
+<h2 class="soustitreprog" >Les sciences humaines et sociales au Maghreb et ailleurs: bilans et perspectives
 </h2><div class="soustitreprog"
-><p>Le Forum propose un état des lieux de la production en sciences humaines et sociales sur le Maghreb et ailleurs au cours des dernières décennies. Des conférences rendront compte d’un travail récent de bilan réflexif sur les sciences sociales depuis les indépendances menés par différentes institutions, notamment en Tunisie, en France et au Maroc. Des ateliers dresseront, plus largement, un panorama par champs d’étude ou par discipline autour de plusieurs axes (archéologie et patrimoine, histoire, linguistique et littérature, philosophie, sciences sociales, islamologie et sciences religieuses…).
+><p>Le Forum propose un état des lieux de la production en sciences humaines et sociales sur le Maghreb et ailleurs au cours des dernières décennies. Des conférences rendront compte d’un travail récent de bilan réflexif sur les sciences sociales du contemporaindu contemporaindepuis les indépendances mené par différentes institutions, notamment en Tunisie, en France et au Maroc. Des ateliers dresseront, plus largement, un panorama par champ d’étude ou par discipline autour de plusieurs axes (archéologie et patrimoine, histoire, linguistique et littérature, philosophie, sciences sociales, islamologie et sciences religieuses…).
 
 
 </p>

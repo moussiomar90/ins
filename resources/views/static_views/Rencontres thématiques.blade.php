@@ -98,26 +98,25 @@
 
                                 </ul>
                                 </a></li>
-                                <li><a href="./galerie">Galerie Média   </a>
+                                <li><a href="./galerie">Presse et médias
+</a>
                                     <!-- <ul class="dropdown">
                                         <li><a href="./about.html" >Conférence de Presse</a></li>
                                         <li><a href="./portfolio.html">Articles</a></li>
 
                                     </ul> -->
                                 </li>
-             <style>
+                                <style>
              .button-viztype {
     border: none;
     height:30px;
+    width: 30px;
     font-size: 0.9em;
-    border-left-style: solid;
-
-    border-left-color:#224474;
-    border-left-width: 4px;
+padding: auto;
 
 }</style>
                                 <button class="button-viztype ">
-      Fr
+      Ang
     </button>
 
 
@@ -299,7 +298,8 @@ a:link {
     <section class="accordion_two_section ptb-100">
     <div class="container">
         <div class="row"> <div class="col-sm-4 accordionTwo">
-          <h2 class="titreprog" >Rencontres thématiques</h2>
+          <h2 class="titreprog" >“Rencontres Insaniyyat”
+</h2>
             <!--end of /.col-sm-6--></div>
             <div class="col-sm-8 accordionTwo">
                 <div class="panel-group" id="accordionTwoRight">
@@ -317,7 +317,7 @@ La rencontre dressera un état des lieux de ces questions en réfléchissant, av
 
 </p>
 
-<h2 class="soustitreprog" >3- Rencontres Sciences sociales et Société
+<h2 class="soustitreprog" >3- Sciences sociales et Société
 </h2>
 <div class="soustitreprog"
 ><p> Le contexte tunisien est particulièrement propice pour réfléchir aux relations entre universités et champ politique, dans le cadre de l’ouverture permise par les situations révolutionnaires de 2011. L’impact des transformations politiques et sociales sur les travaux et les institutions de recherche mais aussi le rôle que jouent les savants dans la cité seront évoqués à partir de plusieurs cas pratiques dans la région.

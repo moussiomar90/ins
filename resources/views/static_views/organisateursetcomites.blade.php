@@ -61,7 +61,7 @@ height: 245px;   background: url(img/banniere/organisa.png) center center / cove
 </head>
 @include('Partials.menu')
 
-<
+
 <body>
 <div id="preloder">
         <div class="loader"></div>
@@ -194,7 +194,8 @@ a:link {
 
 <section class="accordion_two_section ptb-100">
     <div class="container">
-   <div class="panel-body "style=" border-top: 0;
+        <div class="row">
+   <div class="col-lg-6 panel-body "style=" border-top: 0;
     padding-top: 0;
     padding: 20px 20px 20px 30px;
     background: #224474;
@@ -202,8 +203,16 @@ a:link {
     font-weight: 300;
     font-size: 18px;
     text-align: justify;
-    line-height: 30px">Présidente du forum :  Jouhaina GHERIB </div>
-
+    line-height: 30px"> Présidente du forum :  Jouhaina GHERIB  </div>
+ <div class="col-lg-6 panel-body "style=" border-top: 0;
+    padding-top: 0;
+    padding: 20px 20px 20px 30px;
+    background: #224474;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px">  Présidente du comité de pilotage : Chiraz Latiri</div></div>
         <div class="row">
 
             <div class="col-sm-6 accordionTwo">
@@ -236,91 +245,16 @@ a:link {
                     </div>
                             </div>
                         </div> <!-- /.panel-default -->
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoLeft" href="#collapseTwoLeftThree" aria-expanded="false">Comité de pilotage
-</a> </h4>
-                        </div>
-                        <div id="collapseTwoLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                            <div class="panel-body"> Chiraz Latiri, Université de la Manouba
-</div>
-</div>
-</div>
+                        <div class="panel panel-default ">
 
-</div>
-<!--end of /.panel-group-->
-</div>
-<!--end of /.col-sm-6-->
-<div class="col-sm-6 accordionTwo">
-                <div class="panel-group" id="accordionTwoRight">
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading">
-                            <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoRight" href="#collapseTwoRightone" aria-expanded="false">Comité d’organisation
-</a> </h4>
-                        </div>
-                        <div id="collapseTwoRightone" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                            <div class="panel-body">Asma SAAYED	Université de la Manouba <br>
-                                Emira BEN SAAD	Université de la Manouba<br>
-                                Chiraz TRABELSI	Université de la Manouba<br>
-                                Leila BENRHOUMA	Université de la Manouba<br>
-Ahlem BOUZIRI	Université de la Manouba<br>
-Imen BOUZIRI	Université de la Manouba<br>
-Aroua BEN JAFAR	Université de la Manouba<br>
-Afef TRABELSI	Université de la Manouba<br>
-Hela HMEM		Université de la Manouba<br>
-Meriem JEGHAM	Université de la Manouba<br>
-Dorra MASRI		Université de la Manouba<br>
-Faten BEN AISSA	Université de la Manouba<br>
-Rim MEZHOUD	Université de la Manouba<br>
-Ines BOURAOUI	Université de la Manouba<br>
-Khadija SIALA	Université de la Manouba<br>
-Jalila BOUZOMITA	Université de la Manouba<br>
-Nour el Houda SAADANI	Université de la Manouba<br>
-Naouel BEN ALI		Université de la Manouba<br>
-Aicha KAMMOUN		Université de la Manouba<br>
-Imen Ben Romdhane		Université de Tunis<br>
-Ines DRIRA			Université de Tunis<br>
-Mariem BRIK			Université de Tunis<br>
-Sondes BELASFER		Université de Tunis<br>
-Imen ELLOUZI		Université de Tunis-el Manar<br>
-Ahlem TURKI		Université de Tunis-el Manar<br>
-
-</div>
-</div>
-                    </div> <!-- /.panel-default -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoRight" href="#collapseTwoRightTwo" aria-expanded="false">Comité de programmation
-                                </a> </h4>
-                            </div>
-                            <div id="collapseTwoRightTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist">
-                                <div class="panel-body">Choukri Hmed	 GIS Moyen-Orient Mondes Musulmans
-                                    Eric Vallet GIS Moyen-Orient Mondes Musulmans <br>
-                                    Antoine Perrier GIS Moyen-Orient Mondes-Musulmans<br>
-                                    Kmar Bendana Université de la Manouba<br>
-                                    Monia Lachheb Université de la Manouba<br>
-                                    Sihem Kchaou Université de la Manouba<br>
-                                    Nabil Cherni Université de la Manouba<br>
-                                    Ahmed Khouaja Université de Tunis<br>
-                                    Insaf Machta Université de Tunis<br>
-Hamati Tizaoui, Université de Tunis<br>
-Safia Hamdi, Université de Tunis<br>
-Fatma Ben Slimane, Université de Tunis<br>
-Imed Melliti, Université de Tunis-el Manar<br>
-Halima Ouanada, Université de Tunis-el Manar<br>
-Khaoula Benmansour, Université de Tunis-el Manar<br>
-Hamida Trabelsi Bacha, Université de Tunis-el Manar<br>
-</div>
-</div>
-</div> <!-- /.panel-default -->
-<div class="panel panel-default">
+                        <div class="panel panel-default ">
     <div class="panel-heading">
                             <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordionTwoRight" href="#collapseTwoRightThree" aria-expanded="false">Conseil scientifique
                                 </a> </h4>
                             </div>
-                            <div id="collapseTwoRightThree" class="panel-collapse collapse in" aria-expanded="false" role="tablist">
-                            <div class="panel-body">Larbi Chouikha	Université de la Manouba
+                            <div id="collapseTwoRightThree" class="panel-collapse collapse in" aria-expanded="false" role="tablist" >
+                            <div class="panel-body">
+                                Larbi Chouikha	Université de la Manouba
                                 Safa Achour	Université de Carthage <br>
                                 Boutheina Meraoui	Université de Tunis<br>
                                 Richard jacquemond	Aix Marseille Université<br>
@@ -350,6 +284,91 @@ Abdelahad Sebti	U. Mohammed V, Rabat<br>
 Amor GAMMAR	Université de la Manouba<br>
 Chokri MABKHOUT	Université de la Manouba<br>
 Habib Belaid	Université de la Manouba<br>
+
+</div>
+                        </div>
+                    </div>
+</div>
+
+</div>
+<!--end of /.panel-group-->
+</div>
+<!--end of /.col-sm-6-->
+<div class="col-sm-6 accordionTwo">
+                <div class="panel-group" id="accordionTwoRight">
+                    <div class="panel panel-default">
+
+                        <div class="panel-heading">
+                            <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoRight" href="#collapseTwoRightone" aria-expanded="false">Comité d’organisation
+</a> </h4>
+                        </div>
+                        <div id="collapseTwoRightone" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+                            <div class="panel-body">
+                                Asma SAAYED	Université de la Manouba <br>
+                                <!-- Emira BEN SAAD	Université de la Manouba<br>
+                                Chiraz TRABELSI	Université de la Manouba<br>
+                                Leila BENRHOUMA	Université de la Manouba<br>
+Ahlem BOUZIRI	Université de la Manouba<br>
+Imen BOUZIRI	Université de la Manouba<br>
+Aroua BEN JAFAR	Université de la Manouba<br>
+Afef TRABELSI	Université de la Manouba<br>
+Hela HMEM		Université de la Manouba<br>
+Meriem JEGHAM	Université de la Manouba<br>
+Dorra MASRI		Université de la Manouba<br>
+Faten BEN AISSA	Université de la Manouba<br>
+Rim MEZHOUD	Université de la Manouba<br>
+Ines BOURAOUI	Université de la Manouba<br>
+Khadija SIALA	Université de la Manouba<br>
+Jalila BOUZOMITA	Université de la Manouba<br>
+Nour el Houda SAADANI	Université de la Manouba<br>
+Naouel BEN ALI		Université de la Manouba<br>
+Aicha KAMMOUN		Université de la Manouba<br>
+Imen Ben Romdhane		Université de Tunis<br>
+Ines DRIRA			Université de Tunis<br>
+Mariem BRIK			Université de Tunis<br>
+Sondes BELASFER		Université de Tunis<br>
+Imen ELLOUZI		Université de Tunis-el Manar<br>
+Ahlem TURKI		Université de Tunis-el Manar<br> -->
+
+</div>
+</div>
+
+                    </div> <!-- /.panel-default --> </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwoRight" href="#collapseTwoRightTwo" aria-expanded="false">Comité de programmation
+                                </a> </h4>
+                            </div>
+                            <div id="collapseTwoRightTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+                                <div class="panel-body" style="background-color:#224474 ;color:white ;padding:10% 10%  10% 10%">Choukri Hmed	 GIS Moyen-Orient Mondes Musulmans
+                                    Eric Vallet GIS Moyen-Orient Mondes Musulmans <br>
+                                    Antoine Perrier GIS Moyen-Orient Mondes-Musulmans<br>
+                                    Kmar Bendana Université de la Manouba<br>
+                                    Monia Lachheb Université de la Manouba<br>
+                                    Sihem Kchaou Université de la Manouba<br>
+                                    Nabil Cherni Université de la Manouba<br>
+                                    Ahmed Khouaja Université de Tunis<br>
+                                    Insaf Machta Université de Tunis<br>
+Hamati Tizaoui, Université de Tunis<br>
+Safia Hamdi, Université de Tunis<br>
+Fatma Ben Slimane, Université de Tunis<br>
+Imed Melliti, Université de Tunis-el Manar<br>
+Halima Ouanada, Université de Tunis-el Manar<br>
+Khaoula Benmansour, Université de Tunis-el Manar<br>
+Hamida Trabelsi Bacha, Université de Tunis-el Manar<br>
+</div>
+</div>
+</div> <!-- /.panel-default -->
+ <!-- /.panel-default -->
+ <div class="panel panel-default ">
+
+<div class="panel panel-default">
+<div class="panel-heading">
+    <h4 class="panel-title" style="margin-top:10%; ">
+        </a> </h4>
+    </div>
+    <div id="collapseTwoRightThree" class="panel-collapse collapse in" aria-expanded="false" role="tablist">
+    <div class="panel-body" style="background-color:#224474 ;color:white ;padding:10% 10%  10% 10%" >
 Hatem SALAH	Université de la Manouba<br>
 Lazhar Gharbi	Université de la Manouba<br>
 Leila Blili	Université de la Manouba<br>
@@ -383,12 +402,12 @@ Rebha GHANDRI	Université de Tunis-el Manar<br>
 Taoufik GRIRA	Université de Tunis-el Manar<br>
 Sari Hanafi	Conseil arabe des sciences sociales<br>
 </div>
-                        </div>
-                    </div> <!-- /.panel-default -->
-                    <!-- /.panel-default -->
+</div>
+</div>
+            </div>    <!-- /.panel-default -->
                 </div>
                 <!--end of /.panel-group-->
-            </div>
+
             <!--end of /.col-sm-6-->
         </div>
     </div>
